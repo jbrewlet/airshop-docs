@@ -27,8 +27,8 @@
   --md-typeset-a-color: #f2f2f2;
   --md-typeset-color: #f2f2f2;
 
-  /* Code blocks */
-  --md-code-fg-color: #e0e0e0;
+  /* Code blocks - minimal orange tint (theme.ts airshop.orange) for distinction */
+  --md-code-fg-color: #e8a080;
   --md-code-bg-color: #262626;
   --md-code-bg-color--light: rgba(38, 38, 38, 0.7);
   --md-code-bg-color--lighter: rgba(38, 38, 38, 0.5);

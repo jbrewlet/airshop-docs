@@ -19,6 +19,8 @@ AirShop uses QR codes on Kanban cards and bin labels to link directly to invento
 
 We recommend the **Tera 8100** industrial 2D handheld barcode scanner for use with AirShop.
 
+[Get one on Amazon](https://amzn.to/46itC3F)
+
 **Why the Tera 8100?**
 
 - Reads QR codes and 2D barcodes reliably

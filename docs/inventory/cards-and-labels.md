@@ -1,9 +1,9 @@
 ---
-title: Cards & Bin Labels
-description: Field length guide for Kanban cards and bin labels. Keep item names and descriptions readable when printed.
+title: Kanban Cards & Bin Labels
+description: Guide to Kanban cards and bin labels. Keep item names and descriptions readable when printed.
 ---
 
-# Field Length Guide for Kanban Cards & Bin Labels
+# Guide to Kanban Cards & Bin Labels
 
 Use this guide to keep your inventory data readable on printed Kanban cards and bin labels. Fields that are too long will be truncated or scaled down, which can make labels hard to scan.
 
