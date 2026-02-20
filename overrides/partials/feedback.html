@@ -1,0 +1,37 @@
+{% if page.meta and page.meta.hide and "feedback" in page.meta.hide %}
+{% else %}
+<form class="md-feedback" name="feedback" id="airshop-feedback">
+  <fieldset>
+    <legend class="md-feedback__title">Was this article helpful?</legend>
+    <div class="md-feedback__inner">
+      <div class="md-feedback__list">
+        <button type="button" class="md-feedback__icon md-icon" title="Yes" data-feedback="yes" aria-label="Yes">
+          {% include ".icons/material/thumb-up-outline.svg" %}
+        </button>
+        <button type="button" class="md-feedback__icon md-icon" title="No" data-feedback="no" aria-label="No">
+          {% include ".icons/material/thumb-down-outline.svg" %}
+        </button>
+      </div>
+      <div class="md-feedback__note" id="airshop-feedback-note" hidden></div>
+    </div>
+  </fieldset>
+  <p class="md-feedback__help">
+    Still need help? <a href="https://airshop.work">Message us</a>
+  </p>
+</form>
+<script>
+(function() {
+  var form = document.getElementById('airshop-feedback');
+  var note = document.getElementById('airshop-feedback-note');
+  if (!form || !note) return;
+  form.querySelectorAll('[data-feedback]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var msg = this.getAttribute('data-feedback') === 'yes' ? 'Thanks for your feedback!' : "Thanks! We'll improve this page.";
+      note.textContent = msg;
+      note.hidden = false;
+      form.querySelectorAll('[data-feedback]').forEach(function(b) { b.disabled = true; });
+    });
+  });
+})();
+</script>
+{% endif %}

@@ -1,0 +1,84 @@
+/* AirShop Docs - Navy #03366D | Orange #FF5918 */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #03366D;
+  --md-primary-fg-color--light: #0554a0;
+  --md-primary-fg-color--dark: #022a4a;
+  --md-accent-fg-color: #FF5918;
+  --md-accent-fg-color--transparent: rgba(255, 89, 24, 0.15);
+  --md-typeset-a-color: #5588dd;
+}
+
+[data-md-color-scheme="slate"] a:hover {
+  color: #FF5918;
+}
+
+:root {
+  --md-text-font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --md-code-font: "JetBrains Mono", "Roboto Mono", monospace;
+}
+
+/* Smaller logo, no white bg - transparent on dark */
+.md-header__button.md-logo,
+.md-nav__button.md-logo,
+.md-nav__title {
+  background: transparent;
+}
+
+.md-header__button.md-logo,
+.md-nav__button.md-logo {
+  padding: 0.4rem 0.6rem;
+}
+
+.md-header__button.md-logo img,
+.md-nav__button.md-logo img {
+  height: 0.84rem;
+  width: auto;
+}
+
+/* Page padding - content not on edge */
+.md-main__inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.md-content {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 76.25em) {
+  .md-main__inner {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Hide repo/source/social */
+.md-source,
+.md-social,
+.md-header__source,
+.md-nav__source {
+  display: none;
+}
+
+/* Feedback widget - ensure visible, add help link spacing */
+.md-feedback {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest, rgba(255, 255, 255, 0.08));
+}
+
+.md-feedback__help {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+}
+
+.md-feedback__icon {
+  cursor: pointer;
+}
+
+.md-feedback__icon:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
