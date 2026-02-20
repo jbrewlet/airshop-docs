@@ -19,10 +19,10 @@ theme:
     text: Inter
     code: JetBrains Mono
   logo: assets/logo.svg
-  favicon: assets/favicon.svg
+  favicon: assets/favicon.png
   custom_dir: overrides
   features:
-    - navigation.instant
+    # navigation.instant disabled - breaks CSS live reload (browser won't full-reload)
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -57,25 +57,11 @@ markdown_extensions:
 
 extra:
   generator: false
-  # Feedback widget - uncomment and add GA property to enable
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
-  #   feedback:
-  #     title: Was this page helpful?
-  #     ratings:
-  #       - icon: material/thumb-up-outline
-  #         name: Yes
-  #         data: 1
-  #         note: Thanks for your feedback!
-  #       - icon: material/thumb-down-outline
-  #         name: No
-  #         data: 0
-  #         note: Thanks! We'll improve this page.
 
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
+  - javascripts/tawk.js
   - javascripts/extra.js
 
 nav:
@@ -88,11 +74,15 @@ nav:
     - Setup: setup/index.md
     - Quick Start: setup/quick-start.md
     - Inquiry Forms: setup/inquiry-forms.md
+    - Help Scout Integration: setup/helpscout-integration.md
     - FAQ: setup/faq.md
   - Inventory:
     - Inventory: inventory/index.md
     - QR Code Scanning: inventory/qr-code-scanning.md
     - Inventory Export: inventory/inventory-export.md
+    - Bulk Import: inventory/bulk-import.md
+    - Cards & Bin Labels: inventory/cards-and-labels.md
+    - URL Cleaning: inventory/url-cleaning.md
   - Quotes:
     - Quotes: quotes/index.md
     - Create a Quote: quotes/create-quote.md

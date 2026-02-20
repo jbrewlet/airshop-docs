@@ -1,16 +1,53 @@
-/* AirShop Docs - Navy #03366D | Orange #FF5918 */
+/* AirShop Docs - match /airshop/src/theme.ts darkPalette
+   bg #1e1e1e #262626 | text #f2f2f2 | navy #03366D | orange #FF5918 | links
+   AppBar #222222 | CTA orange */
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #03366D;
-  --md-primary-fg-color--light: #0554a0;
-  --md-primary-fg-color--dark: #022a4a;
+  /* Header/sidebar: theme.ts dark AppBar #222222 */
+  --md-primary-fg-color: #f2f2f2;
+  --md-primary-bg-color: #222222;
+
+  /* Backgrounds: theme.ts darkPalette */
+  --md-default-bg-color: #1e1e1e;
+  --md-default-bg-color--light: #262626;
+  --md-default-bg-color--lighter: rgba(38, 38, 38, 0.7);
+  --md-default-bg-color--lightest: rgba(38, 38, 38, 0.3);
+
+  /* Foreground: theme.ts text.primary */
+  --md-default-fg-color: #f2f2f2;
+  --md-default-fg-color--light: rgba(242, 242, 242, 0.7);
+  --md-default-fg-color--lighter: rgba(242, 242, 242, 0.5);
+  --md-default-fg-color--lightest: rgba(242, 242, 242, 0.08);
+
+  /* Accent: theme.ts ctaButton/airshop.orange */
   --md-accent-fg-color: #FF5918;
   --md-accent-fg-color--transparent: rgba(255, 89, 24, 0.15);
-  --md-typeset-a-color: #5588dd;
+
+  /* Links: white, orange on hover (no blue) */
+  --md-typeset-a-color: #f2f2f2;
+  --md-typeset-color: #f2f2f2;
+
+  /* Code blocks */
+  --md-code-fg-color: #e0e0e0;
+  --md-code-bg-color: #262626;
+  --md-code-bg-color--light: rgba(38, 38, 38, 0.7);
+  --md-code-bg-color--lighter: rgba(38, 38, 38, 0.5);
+
+  /* Neutral grays */
+  --md-typeset-kbd-color: #333333;
+  --md-typeset-kbd-border-color: rgba(242, 242, 242, 0.3);
+  --md-typeset-table-color: rgba(242, 242, 242, 0.12);
+  --md-typeset-table-color--light: rgba(242, 242, 242, 0.05);
 }
 
+/* Links: white, orange on hover */
+[data-md-color-scheme="slate"] a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
 [data-md-color-scheme="slate"] a:hover {
   color: #FF5918;
+  text-decoration: none;
 }
 
 :root {
@@ -18,7 +55,122 @@
   --md-code-font: "JetBrains Mono", "Roboto Mono", monospace;
 }
 
-/* Smaller logo, no white bg - transparent on dark */
+/* Header - force AirShop AppBar look */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #222222;
+}
+
+/* Header - menu, search, page title (no blue) */
+[data-md-color-scheme="slate"] .md-header .md-icon,
+[data-md-color-scheme="slate"] .md-header .md-header__button,
+[data-md-color-scheme="slate"] .md-header__topic,
+[data-md-color-scheme="slate"] .md-header .md-ellipsis {
+  color: #f2f2f2;
+}
+[data-md-color-scheme="slate"] .md-header .md-icon svg,
+[data-md-color-scheme="slate"] .md-header .md-header__button svg {
+  fill: currentColor;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #222222;
+}
+
+[data-md-color-scheme="slate"] .md-nav--primary .md-nav__title,
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+  background-color: #222222;
+}
+
+/* Nav links - white, orange for active/current (no blue) */
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: rgba(242, 242, 242, 0.85);
+}
+[data-md-color-scheme="slate"] .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-nav__link--active .md-ellipsis,
+[data-md-color-scheme="slate"] .md-nav__item--active .md-nav__link,
+[data-md-color-scheme="slate"] .md-nav__link:focus {
+  color: #FF5918;
+}
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  color: #FF5918;
+}
+
+/* Tabs - same */
+[data-md-color-scheme="slate"] .md-tabs__link {
+  color: rgba(242, 242, 242, 0.85);
+}
+[data-md-color-scheme="slate"] .md-tabs__link--active {
+  color: #FF5918;
+}
+
+/* Buttons - always caps */
+[data-md-color-scheme="slate"] .md-button {
+  text-transform: uppercase;
+}
+
+/* Primary button = CTA orange (Quick Start) */
+[data-md-color-scheme="slate"] .md-button--primary {
+  background-color: #FF5918;
+  color: #1a1a1a;
+  border-color: #FF5918;
+}
+
+[data-md-color-scheme="slate"] .md-button--primary:hover {
+  background-color: #e54f14;
+  color: #1a1a1a;
+  border-color: #e54f14;
+}
+
+/* Secondary button (Open AirShop) - white outline, orange on hover */
+[data-md-color-scheme="slate"] .md-button:not(.md-button--primary) {
+  color: #f2f2f2;
+  border-color: rgba(242, 242, 242, 0.5);
+}
+
+[data-md-color-scheme="slate"] .md-button:not(.md-button--primary):hover {
+  color: #FF5918;
+  border-color: #FF5918;
+}
+
+/* Card titles - white like AirShop */
+[data-md-color-scheme="slate"] .mdx-section-card h3 {
+  color: #f2f2f2;
+}
+
+/* Card descriptions - theme.ts text.secondary (muted gray, not blue) */
+[data-md-color-scheme="slate"] .mdx-section-card p {
+  color: rgba(242, 242, 242, 0.7);
+}
+
+/* Card icons - unique theme.ts colors per section */
+[data-md-color-scheme="slate"] .mdx-section-card__icon {
+  background: rgba(255, 255, 255, 0.10);
+}
+[data-md-color-scheme="slate"] .mdx-section-card__icon svg {
+  fill: currentColor;
+}
+[data-md-color-scheme="slate"] .mdx-section-card--airshop .mdx-section-card__icon,
+[data-md-color-scheme="slate"] .mdx-section-card--airshop .mdx-section-card__icon svg {
+  color: #FF5918;
+  fill: #FF5918;
+}
+[data-md-color-scheme="slate"] .mdx-section-card--setup .mdx-section-card__icon,
+[data-md-color-scheme="slate"] .mdx-section-card--setup .mdx-section-card__icon svg {
+  color: #64b5f6;
+  fill: #64b5f6;
+}
+[data-md-color-scheme="slate"] .mdx-section-card--inventory .mdx-section-card__icon,
+[data-md-color-scheme="slate"] .mdx-section-card--inventory .mdx-section-card__icon svg {
+  color: #4caf50;
+  fill: #4caf50;
+}
+[data-md-color-scheme="slate"] .mdx-section-card--quotes .mdx-section-card__icon,
+[data-md-color-scheme="slate"] .mdx-section-card--quotes .mdx-section-card__icon svg {
+  color: #b388ff;
+  fill: #b388ff;
+}
+
+/* Logo - compact but readable */
 .md-header__button.md-logo,
 .md-nav__button.md-logo,
 .md-nav__title {
@@ -27,16 +179,23 @@
 
 .md-header__button.md-logo,
 .md-nav__button.md-logo {
-  padding: 0.4rem 0.6rem;
+  padding: 0.5rem 1rem;
+  max-width: fit-content;
 }
 
+/* Logo - height controls size; max-width prevents full-width stretch */
 .md-header__button.md-logo img,
 .md-nav__button.md-logo img {
-  height: 0.84rem;
+  
+  max-height: 30px;
+  max-width: 120px;
   width: auto;
+  margin: 0 auto;
+  object-fit: contain;
+  display: block;
 }
 
-/* Page padding - content not on edge */
+/* Page padding */
 .md-main__inner {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -62,23 +221,91 @@
   display: none;
 }
 
-/* Feedback widget - ensure visible, add help link spacing */
-.md-feedback {
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--md-default-fg-color--lightest, rgba(255, 255, 255, 0.08));
+/* Home page */
+.mdx-container {
+  padding: 2rem 1rem 3rem;
 }
 
-.md-feedback__help {
-  margin: 0.75rem 0 0;
+.mdx-hero {
+  text-align: center;
+  padding: 2rem 0 3rem;
+}
+
+.mdx-hero__content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: #ffffff;
+}
+
+.mdx-hero__content p {
+  margin: 0 0 1.5rem;
+  opacity: 0.85;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cccccc;
+}
+
+.mdx-hero__content .md-button {
+  margin: 0 0.75rem 0.5rem 0;
+}
+
+.mdx-section-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.mdx-section-card {
+  border: 1px solid rgba(242, 242, 242, 0.08);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.mdx-section-card:hover {
+  border-color: #FF5918;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.mdx-section-card__link {
+  display: block;
+  padding: 1.25rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.mdx-section-card__link:hover {
+  color: inherit;
+}
+
+.mdx-section-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.mdx-section-card__icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mdx-section-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.mdx-section-card p {
+  margin: 0;
   font-size: 0.9rem;
-}
-
-.md-feedback__icon {
-  cursor: pointer;
-}
-
-.md-feedback__icon:disabled {
-  cursor: default;
-  opacity: 0.6;
+  opacity: 0.85;
+  line-height: 1.5;
 }

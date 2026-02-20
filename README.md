@@ -77,8 +77,3 @@ To refresh: copy from `airshop/public/` into `docs/assets/`.
 - Fonts: Inter (body), JetBrains Mono (code)
 - Dark mode only
 
----
-
-## Feedback Widget
-
-To enable upvote/downvote feedback, uncomment the `analytics.feedback` block in `mkdocs.yml` and add your Google Analytics property ID.

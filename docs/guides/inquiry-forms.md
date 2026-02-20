@@ -1,3 +1,8 @@
+---
+title: Inquiry Forms
+description: Share your AirShop inquiry form as a Hosted URL or Embed. Setup for Instagram, email, websites, and QR codes.
+---
+
 # AirShop Inquiry Forms Guide
 
 Your inquiry form collects project details from potential customers. You can share it in two ways: as a **Hosted URL** (a direct link) or as an **Embed** (form built into your website). This guide explains both options and when to use each.

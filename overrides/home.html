@@ -1,0 +1,63 @@
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+  <style>
+    .md-header { position: initial; }
+    .md-main__inner { margin: 0; }
+    .md-content { display: none; }
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary { display: none; }
+    }
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary { display: none; }
+    }
+  </style>
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero md-typeset">
+        <div class="mdx-hero__content">
+          <h1>AirShop Documentation</h1>
+          <p>{{ config.site_description }}. Get started quickly with setup guides, inventory management, and quoting.</p>
+          <a href="{{ 'setup/quick-start/' | url }}" title="Quick Start" class="md-button md-button--primary">
+            Quick Start
+          </a>
+          <a href="https://airshop.work" title="Open AirShop" class="md-button">
+            Open AirShop
+          </a>
+        </div>
+      </div>
+      <div class="mdx-section-cards md-grid">
+        <div class="mdx-section-card mdx-section-card--airshop">
+          <a href="{{ 'airshop/' | url }}" class="mdx-section-card__link">
+            <span class="mdx-section-card__icon">{% include ".icons/material/application.svg" %}</span>
+            <h3>AirShop</h3>
+            <p>General features, keyboard shortcuts, and tips.</p>
+          </a>
+        </div>
+        <div class="mdx-section-card mdx-section-card--setup">
+          <a href="{{ 'setup/' | url }}" class="mdx-section-card__link">
+            <span class="mdx-section-card__icon">{% include ".icons/material/cog.svg" %}</span>
+            <h3>Setup</h3>
+            <p>Getting started, inquiry forms, and configuration.</p>
+          </a>
+        </div>
+        <div class="mdx-section-card mdx-section-card--inventory">
+          <a href="{{ 'inventory/' | url }}" class="mdx-section-card__link">
+            <span class="mdx-section-card__icon">{% include ".icons/material/package-variant.svg" %}</span>
+            <h3>Inventory</h3>
+            <p>QR code scanning, export, and inventory management.</p>
+          </a>
+        </div>
+        <div class="mdx-section-card mdx-section-card--quotes">
+          <a href="{{ 'quotes/' | url }}" class="mdx-section-card__link">
+            <span class="mdx-section-card__icon">{% include ".icons/material/file-document-outline.svg" %}</span>
+            <h3>Quotes</h3>
+            <p>Create quotes, manage inquiries, and forms.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% endblock %}

@@ -1,3 +1,8 @@
+---
+title: QR Code Scanning
+description: How QR codes work on AirShop cards and bin labels. Recommended scanners, setup, and mobile scanning.
+---
+
 # QR Code Scanning
 
 AirShop uses QR codes on Kanban cards and bin labels to link directly to inventory items. When you scan a QR code, AirShop opens the item detail page instantly. This guide explains how scanning works and which hardware we recommend.

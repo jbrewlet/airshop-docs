@@ -1,3 +1,8 @@
+---
+title: Inventory Export
+description: Export AirShop inventory to CSV for backup, analysis, or external processing. Export all or selected items.
+---
+
 # Inventory Export
 
 This guide explains how to export inventory data from AirShop as CSV files.

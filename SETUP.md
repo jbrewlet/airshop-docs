@@ -188,17 +188,6 @@ To refresh assets, copy the latest files from `/Users/jbrw/airshop/public/` into
 
 ---
 
-## 10. Feedback Widget (Optional)
-
-To enable upvote/downvote feedback:
-
-1. Create a Google Analytics 4 property.
-2. In `mkdocs.yml`, uncomment the `analytics.feedback` block under `extra:`.
-3. Replace `G-XXXXXXXXXX` with your GA4 Measurement ID.
-4. Commit and push.
-
----
-
 ## Troubleshooting
 
 | Issue | Check |

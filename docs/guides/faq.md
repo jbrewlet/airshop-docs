@@ -1,3 +1,8 @@
+---
+title: FAQ
+description: Frequently asked questions about AirShop—what it is, how to get support, and common setup questions.
+---
+
 # Frequently Asked Questions
 
 Common questions about AirShop.
@@ -10,7 +15,7 @@ AirShop is a platform for managing quotes, orders, and inventory for manufacturi
 
 ### How do I get support?
 
-Contact support through the app or visit [airshop.work](https://airshop.work) for contact options.
+Contact support through the app or visit [help.airshop.work](https://help.airshop.work) for contact options.
 
 ## Related
 
