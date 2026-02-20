@@ -57,6 +57,10 @@ markdown_extensions:
 
 extra:
   generator: false
+  # Google Analytics - same property as airshop (NEXT_PUBLIC_GA_MEASUREMENT_ID)
+  analytics:
+    provider: google
+    property: G-497324105
 
 extra_css:
   - stylesheets/extra.css

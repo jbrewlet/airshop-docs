@@ -7,9 +7,11 @@ description: Connect Help Scout to AirShop to view inquiries, create quotes, and
 
 When you connect Help Scout to AirShop, the AirShop app appears in the sidebar of your Help Scout conversations.
 
+![AirShop app in Help Scout sidebar](../assets/helpscout-custom-app.png)
+
 ## What the Integration Does
 
-Your support team can:
+Your team can:
 
 - **View inquiries and quotes** for the customer in the current conversation
 - **Create new inquiries** in AirShop without leaving Help Scout

@@ -103,12 +103,18 @@
   color: #FF5918;
 }
 
-/* Buttons - always caps */
+/* Buttons - match /airshop theme.ts ctaButton + EmailTemplates/LeadWelcomeEmailTemplates */
 [data-md-color-scheme="slate"] .md-button {
+  font-family: var(--md-text-font, "Inter"), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 16px 40px;
+  border-radius: 6px;
 }
 
-/* Primary button = CTA orange (Quick Start) */
+/* Primary button = CTA orange (theme.ts ctaButton) */
 [data-md-color-scheme="slate"] .md-button--primary {
   background-color: #FF5918;
   color: #1a1a1a;
