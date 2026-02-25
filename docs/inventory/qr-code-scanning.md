@@ -29,7 +29,7 @@ We recommend the **Tera 8100** industrial 2D handheld barcode scanner for use wi
 - Emulates keyboard input (HID mode), which AirShop is designed for
 - Durable for warehouse and shop floor use
 
-**Setup:** Connect via USB or pair wirelessly. No special drivers are needed—the scanner types the scanned URL into the active field, and AirShop routes you to the item.
+**Setup:** Connect via USB or pair wirelessly. No special drivers are needed. The scanner types the scanned URL into the active field, and AirShop routes you to the item.
 
 ## Tips for Reliable Scanning
 
@@ -43,6 +43,6 @@ We recommend the **Tera 8100** industrial 2D handheld barcode scanner for use wi
 | Issue | Solution |
 |-------|----------|
 | Scan does nothing | Ensure no input/textarea is focused. Click elsewhere or refresh the page. |
-| Wrong item opens | Verify the QR code is correct—reprint the card or label if needed. |
+| Wrong item opens | Verify the QR code is correct. Reprint the card or label if needed. |
 | Scanner types into search | Blur the search field (click outside) before scanning. |
 | Works on one device but not another | Use the same browser and ensure the AirShop tab is active when scanning. |

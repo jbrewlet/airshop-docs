@@ -24,51 +24,51 @@ Bulk import lets you add multiple inventory items at once by uploading a CSV or 
 
 Every item must have:
 
-- **name** — Product name (e.g., "Office Chair", "Socket Head Screw")
-- **status** — One of: STOCKED, ON_ORDER, ORDER_NOW, ORDER_SOON, RESEARCHING, ARCHIVED, or UNKNOWN
+- **name:** Product name (e.g., "Office Chair", "Socket Head Screw")
+- **status:** One of: STOCKED, ON_ORDER, ORDER_NOW, ORDER_SOON, RESEARCHING, ARCHIVED, or UNKNOWN
 
 ## Optional Fields
 
 You can include any of these (all optional):
 
-- **sku** — Your product code/part number
-- **description** — Detailed product info
-- **base_price** — Selling price
-- **category** — Product category
-- **unit** — Unit of measure (each, box, etc.)
-- **lead_time** — Days to receive when ordered
-- **location** — Storage location
-- **image_url** — Main product image (full URL)
-- **additional_images** — Multiple images, comma-separated URLs
-- **attachments** — Documents/PDFs/CAD files, comma-separated URLs
-- **notes** — Internal notes
-- **cost_per_unit** — Your purchase cost
-- **markup_percentage** — Markup for pricing
-- **quantity** — Initial stock quantity (also accepts: initial_quantity, qty, stock)
-- **low_stock_threshold** — Quantity that triggers low-stock alerts
-- **reorder_qty** — Suggested reorder quantity (also accepts: reorder quantity, order qty, etc.)
-- **vendor_name** — Supplier name
-- **vendor_contact** — Contact person
-- **vendor_email** — Vendor email
-- **vendor_phone** — Vendor phone
-- **vendor_purchase_url** — Direct purchase link from primary vendor
-- **vendor_2_name** — Secondary vendor name
-- **vendor_2_contact** — Secondary vendor contact
-- **vendor_2_email** — Secondary vendor email
-- **vendor_2_phone** — Secondary vendor phone
-- **vendor_2_purchase_url** — Direct purchase link from secondary vendor
+- **sku:** Your product code/part number
+- **description:** Detailed product info
+- **base_price:** Selling price
+- **category:** Product category
+- **unit:** Unit of measure (each, box, etc.)
+- **lead_time:** Days to receive when ordered
+- **location:** Storage location
+- **image_url:** Main product image (full URL)
+- **additional_images:** Multiple images, comma-separated URLs
+- **attachments:** Documents/PDFs/CAD files, comma-separated URLs
+- **notes:** Internal notes
+- **cost_per_unit:** Your purchase cost
+- **markup_percentage:** Markup for pricing
+- **quantity:** Initial stock quantity (also accepts: initial_quantity, qty, stock)
+- **low_stock_threshold:** Quantity that triggers low-stock alerts
+- **reorder_qty:** Suggested reorder quantity (also accepts: reorder quantity, order qty, etc.)
+- **vendor_name:** Supplier name
+- **vendor_contact:** Contact person
+- **vendor_email:** Vendor email
+- **vendor_phone:** Vendor phone
+- **vendor_purchase_url:** Direct purchase link from primary vendor
+- **vendor_2_name:** Secondary vendor name
+- **vendor_2_contact:** Secondary vendor contact
+- **vendor_2_email:** Secondary vendor email
+- **vendor_2_phone:** Secondary vendor phone
+- **vendor_2_purchase_url:** Direct purchase link from secondary vendor
 
 ## Status Values
 
-Use these exact values (or close variations — the system will auto-correct):
+Use these exact values (or close variations; the system will auto-correct):
 
-- **STOCKED** — Item is in stock
-- **ON_ORDER** — Item has been ordered
-- **ORDER_NOW** — Need to order immediately
-- **ORDER_SOON** — Should order soon
-- **RESEARCHING** — Still evaluating
-- **ARCHIVED** — No longer active
-- **UNKNOWN** — Status not determined
+- **STOCKED:** Item is in stock
+- **ON_ORDER:** Item has been ordered
+- **ORDER_NOW:** Need to order immediately
+- **ORDER_SOON:** Should order soon
+- **RESEARCHING:** Still evaluating
+- **ARCHIVED:** No longer active
+- **UNKNOWN:** Status not determined
 
 **Tip:** The system recognizes variations like "in stock" → STOCKED, "pending" → ON_ORDER, etc.
 
@@ -114,16 +114,16 @@ Laptop Stand,TS-001,ORDER_NOW,https://example.com/main.jpg,"https://example.com/
 
 ## File Limits
 
-- **Max file size** — 10MB
-- **Max items per import** — 500
-- **Supported formats** — CSV (.csv), Excel (.xls, .xlsx)
+- **Max file size:** 10MB
+- **Max items per import:** 500
+- **Supported formats:** CSV (.csv), Excel (.xls, .xlsx)
 
 ## Duplicate Handling
 
 - Each **SKU must be unique** within your organization
 - When a duplicate SKU is found, you can choose:
-  - **Skip duplicates** — keep existing items unchanged
-  - **Update existing** — overwrite with imported data
+  - **Skip duplicates:** keep existing items unchanged
+  - **Update existing:** overwrite with imported data
 - When updating, only non-empty fields in your file are changed. Existing data in other fields is preserved.
 
 ## Advanced Features
@@ -162,12 +162,12 @@ Laptop Stand,TS-001,ORDER_NOW,https://example.com/main.jpg,"https://example.com/
 
 ## Tips & Best Practices
 
-1. **Start small** — Test with 5–10 items first
-2. **Use the sample** — Download the sample CSV and modify it for correct formatting
-3. **Check the preview** — Review what will be imported before confirming
-4. **Backup first** — [Export your current inventory](https://airshop.work/inventory/items) before large imports (same dropdown as Import)
-5. **Consistent formatting** — Use the same format for categories, units, and locations across all rows
-6. **Review errors** — If some rows fail, download the error report CSV to see what went wrong
+1. **Start small:** Test with 5–10 items first
+2. **Use the sample:** Download the sample CSV and modify it for correct formatting
+3. **Check the preview:** Review what will be imported before confirming
+4. **Backup first:** [Export your current inventory](https://airshop.work/inventory/items) before large imports (same dropdown as Import)
+5. **Consistent formatting:** Use the same format for categories, units, and locations across all rows
+6. **Review errors:** If some rows fail, download the error report CSV to see what went wrong
 
 ## Administrator Note
 

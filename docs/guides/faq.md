@@ -1,6 +1,6 @@
 ---
 title: FAQ
-description: Frequently asked questions about AirShop—what it is, how to get support, and common setup questions.
+description: Frequently asked questions about AirShop: what it is, how to get support, and common setup questions.
 ---
 
 # Frequently Asked Questions
@@ -19,5 +19,5 @@ Contact support through the app or visit [help.airshop.work](https://help.airsho
 
 ## Related
 
-- [Getting Started](../getting-started/overview.md) — Overview
-- [Quick Start](../getting-started/quick-start.md) — Setup guide
+- [Getting Started](../getting-started/overview.md): Overview
+- [Quick Start](../getting-started/quick-start.md): Setup guide

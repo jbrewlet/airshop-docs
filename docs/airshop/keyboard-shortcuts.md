@@ -93,5 +93,5 @@ When viewing images in the Quote Builder lightbox:
 ## Tips
 
 - Shortcuts are disabled when you're typing in a text field to avoid conflicts.
-- Sequential shortcuts (like `G` then `D`) have a 1-second timeout—press the keys quickly.
+- Sequential shortcuts (like `G` then `D`) have a 1-second timeout. Press the keys quickly.
 - Works in Chrome, Firefox, Safari, and Edge.

@@ -17,7 +17,7 @@ If you don't manage your own site, send this guide and the relevant link or code
 
 ## Option 1: Hosted URL
 
-The **Hosted URL** is a direct link to your form. Anyone who clicks it opens the form in their browser—no website changes needed.
+The **Hosted URL** is a direct link to your form. Anyone who clicks it opens the form in their browser. No website changes needed.
 
 ### How It Works
 
@@ -29,7 +29,7 @@ The **Hosted URL** is a direct link to your form. Anyone who clicks it opens the
 
 | Use Case | Why It Works |
 |----------|--------------|
-| **Instagram bio** | One link for "Link in bio"—customers tap and fill out the form on their phone. |
+| **Instagram bio** | One link for "Link in bio." Customers tap and fill out the form on their phone. |
 | **Text message** | Send the link in a text or WhatsApp. Great for follow-ups or when a customer asks for a quote. |
 | **Email** | Add the link in your signature, newsletters, or quote follow-ups. Recipients click and submit. |
 | **QR code** | Generate a QR code from the URL and put it on business cards, flyers, or at events. |
@@ -44,7 +44,7 @@ The **Hosted URL** is a direct link to your form. Anyone who clicks it opens the
 
 ## Option 2: Embed Code
 
-The **Embed** lets you put the form directly on your website—like replacing a generic contact form with your custom inquiry form.
+The **Embed** lets you put the form directly on your website, like replacing a generic contact form with your custom inquiry form.
 
 ### How It Works
 
@@ -59,7 +59,7 @@ If your site has a basic "Contact us" form, the embed is a better option because
 - You collect **project details** (services, budget, deadline) instead of just name and email.
 - Submissions go straight into AirShop as inquiries.
 - The form matches your branding and fields you've configured.
-- No need to send people to a separate page—they stay on your site.
+- No need to send people to a separate page. They stay on your site.
 
 ### How to Add It to Your Website
 
@@ -68,7 +68,7 @@ If your site has a basic "Contact us" form, the embed is a better option because
 3. Click the copy button to copy the full embed code.
 4. Send the code to your website manager or developer with these instructions:
 
-   > **For your website manager:** Paste this embed code into the page where you want the form to appear (e.g. a "Request a Quote" or "Contact" page). The code is an iframe—most website builders (WordPress, Wix, Squarespace, Webflow, etc.) have an "Embed" or "HTML" block where you can paste it. The form will display at the width of its container and is responsive on mobile.
+   > **For your website manager:** Paste this embed code into the page where you want the form to appear (e.g. a "Request a Quote" or "Contact" page). The code is an iframe. Most website builders (WordPress, Wix, Squarespace, Webflow, etc.) have an "Embed" or "HTML" block where you can paste it. The form will display at the width of its container and is responsive on mobile.
 
 5. If you use a platform like WordPress, Wix, or Squarespace, look for:
    - **Embed** block (WordPress)
@@ -84,4 +84,4 @@ If your site has a basic "Contact us" form, the embed is a better option because
 | **Hosted URL** | Sharing via Instagram bio, text, email, QR codes, or social posts. No website changes. |
 | **Embed** | You want the form on your website instead of (or in addition to) a contact form. |
 
-Both options use the same form and send submissions to the same place. You can use one or both—for example, embed on your site and also share the Hosted URL in your Instagram bio.
+Both options use the same form and send submissions to the same place. You can use one or both. For example, embed on your site and also share the Hosted URL in your Instagram bio.

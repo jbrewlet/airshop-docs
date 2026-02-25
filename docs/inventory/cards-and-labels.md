@@ -15,10 +15,10 @@ Use this guide to keep your inventory data readable on printed Kanban cards and 
 
 | Length | Result |
 |--------|--------|
-| **~17–18 characters** | **Largest possible text size** — fits at full base font |
+| **~17–18 characters** | **Largest possible text size.** Fits at full base font |
 | **~25–35 characters** | Fits on one line (may scale down slightly) |
-| **~35–40+ characters** | **Breaks to 2 lines** — still readable at 16px min |
-| **50+ characters** | May scale down or clip — keep under 50 when possible |
+| **~35–40+ characters** | **Breaks to 2 lines.** Still readable at 16px min |
+| **50+ characters** | May scale down or clip. Keep under 50 when possible |
 
 **When does it break to 2 lines?** When the title is too long to fit on one line at the minimum font size (16px), it automatically wraps to a second line. This typically happens around 35–40 characters, depending on character width (e.g., "W" vs "i").
 
@@ -50,7 +50,7 @@ Use this guide to keep your inventory data readable on printed Kanban cards and 
 | Length | Result |
 |--------|--------|
 | **30 characters max** | Hard limit in the system |
-| **15–20 characters** | Ideal — fits comfortably on cards |
+| **15–20 characters** | Ideal. Fits comfortably on cards |
 
 ---
 
@@ -58,7 +58,7 @@ Use this guide to keep your inventory data readable on printed Kanban cards and 
 
 | Length | Result |
 |--------|--------|
-| **20–25 characters** | Ideal — no truncation |
+| **20–25 characters** | Ideal. No truncation |
 | **25+ characters** | Ellipsis truncation (e.g., "Above Bathro...") |
 
 ---
@@ -67,13 +67,13 @@ Use this guide to keep your inventory data readable on printed Kanban cards and 
 
 | Length | Result |
 |--------|--------|
-| **Same as Location** | Matches Deliver To styling — keep concise |
+| **Same as Location** | Matches Deliver To styling. Keep concise |
 
 ---
 
 ### Numeric Fields
 
-- **ORDER**, **LOW**, **LEAD** — Numbers only; no length limits
+- **ORDER**, **LOW**, **LEAD:** Numbers only; no length limits
 - Keep lead time under 4 digits for clean display
 
 ---
@@ -104,7 +104,7 @@ Bin labels are smaller than cards. Be more concise.
 | Length | Result |
 |--------|--------|
 | **~120 characters** | Truncated in PDF/print |
-| **3 lines max** | Display clamp — prioritize key specs |
+| **3 lines max** | Display clamp. Prioritize key specs |
 
 **Tips:**
 - First line is most visible

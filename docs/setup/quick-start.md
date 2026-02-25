@@ -20,5 +20,5 @@ Get started with AirShop in a few steps.
 
 ## Next Steps
 
-- [Inquiry Forms](inquiry-forms.md) — Hosted URL and embed options
-- [FAQ](faq.md) — Common questions
+- [Inquiry Forms](inquiry-forms.md): Hosted URL and embed options
+- [FAQ](faq.md): Common questions

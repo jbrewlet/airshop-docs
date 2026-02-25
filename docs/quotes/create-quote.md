@@ -1,6 +1,6 @@
 ---
 title: Create a Quote
-description: Three ways to create a quote in AirShop—keyboard shortcuts, from inquiries, or via navigation.
+description: Three ways to create a quote in AirShop: keyboard shortcuts, from inquiries, or via navigation.
 ---
 
 # Create a Quote

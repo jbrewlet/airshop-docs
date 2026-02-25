@@ -28,7 +28,7 @@ Your team can:
 ### 1) Open the Help Scout settings in AirShop
 
 1. Log in to your AirShop account and go to [Settings → Integrations → Help Scout](https://www.airshop.work/settings/integrations/helpscout)
-2. Keep this page open — you'll enter your Mailbox ID and other values here after setting up Help Scout
+2. Keep this page open. You'll enter your Mailbox ID and other values here after setting up Help Scout
 
 ### 2) Create a Custom App in Help Scout
 
@@ -37,7 +37,7 @@ Your team can:
 3. Fill in:
    - **App name:** e.g. "AirShop"
    - **Content URL:** `https://www.airshop.work/helpscout` (no trailing slash)
-   - **Content signature key:** Generate a random string (40 characters or less) and save it — you'll need to provide this to AirShop (see 4)
+   - **Content signature key:** Generate a random string (40 characters or less) and save it. You'll need to provide this to AirShop (see 4)
    - **Side Panel URLs:** Same as Content URL, or leave as instructed
 4. Click **Save**
 5. **Install the app** and assign it to the mailboxes you use for AirShop
@@ -57,7 +57,7 @@ The Content signature key from your Help Scout Custom App must be configured in 
 
 ### 5) (Optional) Set up note sync
 
-To copy conversation notes from Help Scout into AirShop, follow the **Note sync** instructions on the [Help Scout settings page](https://www.airshop.work/settings/integrations/helpscout) — you'll create a webhook in Help Scout and use the Callback URL and Secret from AirShop.
+To copy conversation notes from Help Scout into AirShop, follow the **Note sync** instructions on the [Help Scout settings page](https://www.airshop.work/settings/integrations/helpscout). You'll create a webhook in Help Scout and use the Callback URL and Secret from AirShop.
 
 ### 6) Save in AirShop
 

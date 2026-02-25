@@ -20,5 +20,5 @@ Get started with AirShop in a few steps.
 
 ## Next Steps
 
-- [Overview](overview.md) — Learn more about AirShop
-- [FAQ](../guides/faq.md) — Common questions and answers
+- [Overview](overview.md): Learn more about AirShop
+- [FAQ](../guides/faq.md): Common questions and answers
