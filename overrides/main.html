@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://airshop.work/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://airshop.work/og-image.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ config.site_name }}",
+    "description": "{{ config.site_description }}",
+    "url": "{{ config.site_url }}"
+  }
+  </script>
+{% endblock %}

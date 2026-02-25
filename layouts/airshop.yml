@@ -1,0 +1,144 @@
+# AirShop custom social card layout
+# Based on Material default - larger site name and page title, Hex-Scanner logo
+
+definitions:
+
+  - &background_image >-
+    {{ layout.background_image | x }}
+
+  - &background_color >-
+    {%- if layout.background_color -%}
+      {{ layout.background_color }}
+    {%- else -%}
+      #03366D
+    {%- endif -%}
+
+  - &color >-
+    {%- if layout.color -%}
+      {{ layout.color }}
+    {%- else -%}
+      #f2f2f2
+    {%- endif -%}
+
+  - &font_family >-
+    {%- if layout.font_family -%}
+      {{ layout.font_family }}
+    {%- elif config.theme.font is mapping -%}
+      {{ config.theme.font.get("text", "Inter") }}
+    {%- else -%}
+      Inter
+    {%- endif -%}
+
+  - &font_variant >-
+    {%- if layout.font_variant -%}
+      {{ layout.font_variant }}
+    {%- endif -%}
+
+  - &site_name >-
+    {{ config.site_name }}
+
+  - &page_title >-
+    {%- if layout.title -%}
+      {{ layout.title }}
+    {%- else -%}
+      {{ page.meta.get("title", page.title) }}
+    {%- endif -%}
+
+  - &page_title_with_site_name >-
+    {%- if not page.is_homepage -%}
+      {{ page.meta.get("title", page.title) }} - {{ config.site_name }}
+    {%- else -%}
+      {{ config.site_name }}
+    {%- endif -%}
+
+  - &page_description >-
+    {%- if layout.description -%}
+      {{ layout.description }}
+    {%- else -%}
+      {{ page.meta.get("description", config.site_description) | x }}
+    {%- endif -%}
+
+  - &logo >-
+    {%- if layout.logo -%}
+      {{ layout.logo }}
+    {%- elif config.theme.logo -%}
+      {{ config.docs_dir }}/{{ config.theme.logo }}
+    {%- endif -%}
+
+  - &logo_icon >-
+    {%- if not layout.logo and config.theme.icon -%}
+      {{ config.theme.icon.logo | x }}
+    {%- endif -%}
+
+tags:
+
+  og:type: website
+  og:title: *page_title_with_site_name
+  og:description: *page_description
+  og:image: "{{ image.url }}"
+  og:image:type: "{{ image.type }}"
+  og:image:width: "{{ image.width }}"
+  og:image:height: "{{ image.height }}"
+  og:url: "{{ page.canonical_url }}"
+
+  twitter:card: summary_large_image
+  twitter:title: *page_title_with_site_name
+  twitter:description: *page_description
+  twitter:image: "{{ image.url }}"
+
+size: { width: 1200, height: 630 }
+layers:
+
+  - background:
+      image: *background_image
+      color: *background_color
+
+  # Logo - Hex-Scanner in upper right (200px, 48px inset from edges)
+  - size: { width: 200, height: 200 }
+    offset: { x: 952, y: 48 }
+    background:
+      image: *logo
+    icon:
+      value: *logo_icon
+      color: *color
+
+  # Site name - larger (56px height vs 42px default)
+  - size: { width: 832, height: 56 }
+    offset: { x: 64, y: 64 }
+    typography:
+      content: *site_name
+      color: *color
+      font:
+        family: *font_family
+        variant: *font_variant
+        style: Bold
+
+  # Page title - larger (350px height, line height 1.4 vs 310/1.25 default)
+  - size: { width: 832, height: 350 }
+    offset: { x: 62, y: 136 }
+    typography:
+      content: *page_title
+      align: start
+      color: *color
+      line:
+        amount: 3
+        height: 1.4
+      font:
+        family: *font_family
+        variant: *font_variant
+        style: Bold
+
+  # Page description
+  - size: { width: 832, height: 64 }
+    offset: { x: 64, y: 508 }
+    typography:
+      content: *page_description
+      align: start
+      color: *color
+      line:
+        amount: 2
+        height: 1.5
+      font:
+        family: *font_family
+        variant: *font_variant
+        style: Regular

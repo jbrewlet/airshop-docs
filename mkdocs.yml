@@ -4,7 +4,7 @@
 # Run: mkdocs serve --watch-theme  (watches overrides + docs for live reload)
 
 site_name: AirShop Docs
-site_description: AirShop help and documentation
+site_description: AirShop help and documentation for quotes, orders, and inventory management in manufacturing and fabrication workflows.
 site_url: https://docs.airshop.work
 copyright: © 2026 AirShop Works Inc. All rights reserved.
 
@@ -18,7 +18,7 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
-  logo: assets/logo.svg
+  logo: assets/logo-hex.svg
   favicon: assets/favicon.png
   custom_dir: overrides
   features:
@@ -35,6 +35,14 @@ theme:
 plugins:
   - search:
       lang: en
+  - social:
+      cards_layout_dir: layouts
+      cards_layout: airshop
+      cards_layout_options:
+        font_family: Inter
+        background_color: "#03366D"
+        color: "#f2f2f2"
+        logo: layouts/logo-hex.png
 
 markdown_extensions:
   - abbr
