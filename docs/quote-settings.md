@@ -13,7 +13,7 @@ description: Customize your quotes with your logo, styling, and preferences. Ove
 [Open Quote Settings](https://airshop.work/settings){ target="_blank" rel="noopener noreferrer" }
 
 ---
-AirShop lets you customize your quotes to match your brand and workflow. Add your logo, control what appears on each quote, and set default margin and tax. Organization-level defaults apply to new quotes unless you override them per quote using the **Quote Options** panel.
+AirShop lets you customize your quotes to match your brand and workflow. Add your logo, control what appears on each quote, and set default margin and tax. Organization-level defaults apply to new quotes unless you override them per quote using the [Quote Options panel](quotes/quote-options-panel.md).
 
 ![Quote Settings page](assets/quote-settings-page.png){ .screenshot }
 
@@ -27,7 +27,7 @@ This is displayed publicly on quotes sent to customers.
 - **Phone** — Contact number
 - **Website** — Your company URL
 - **Address** — Multi-line address (e.g., PO Box, city, state, ZIP)
-- **Company Logo** — Upload your logo; turn on **Show Company Logo** in Quote Options for each quote to display it. Confirm the logo appears in quote preview and PDF export.
+- **Company Logo** — Upload your logo; turn on **Show Company Logo** in [Quote Options](quotes/quote-options-panel.md) for each quote to display it. Confirm the logo appears in quote preview and PDF export.
 
 ---
 
@@ -64,6 +64,32 @@ Configure how quote numbers are generated.
 
 ---
 
+## Display & Visibility Options
+
+Configure default display settings for new quotes and overall quote visibility. Use **Reset to Defaults** to restore Content & Branding, Pricing & Totals Display, and System Options to their defaults.
+
+**Content & Branding** — Show Company Logo, Show Company Information, Show QR Code, Show CAD Files to Customers
+
+**Pricing & Totals Display** — Show Quantities, Show Unit Prices, Show Line Totals. **Rollup Items** — Show only rollup total, or show each sub-item's price (requires unit prices or line totals enabled)
+
+**System Options** — Auto-Save Enabled
+
+---
+
+## Colors & Branding
+
+Customize the visual appearance of your quotes.
+
+- **Brand Color** — Primary accent color
+- **Text Color** — Main text color
+- **Background** — Quote background color
+- **Highlights** — Highlight/alternate row color
+- **Font Family** — Helvetica, Arial, Times, or Georgia
+
+Use the Preview panel to see changes before saving.
+
+---
+
 ## Payment Options
 
 !!! info "Coming Q1 2026"
@@ -71,29 +97,25 @@ Configure how quote numbers are generated.
 
 ---
 
-## Quote Options panel
+## Quote Email Reply-To Settings
 
-Each quote has a **Settings** button in the upper right that opens the Quote Options panel. Use it to override organization settings for that quote only—for example, when a specific quote needs different display options or styling.
+Configure where replies to quote emails are sent.
 
-![Quote Options panel in Quote Builder](assets/quote-options-panel.png){ .screenshot }
-
-**How to access:** In the Quote Builder, click the settings icon (stack of horizontal lines) in the upper right—to the right of "Saved X ago" and left of the chevron.
-
-**What the panel shows:**
-
-- **Quote Settings** link (top right of panel) — Opens the full Quote Settings page where margin, tax, and organization defaults live
-- **Template** — Choose a Quote Template
-- **Assignment** — Assigned to
-- **Quote Display** toggles — Show Company Information, Show Company Logo, Show CAD Files, Show Quantities, Show Unit Prices, Show Line Totals
-- **Rollup Items** — Show only rollup total, Roll-ups Expanded (requires unit prices or line totals enabled)
+- **Reply-To Email** — Choose **Organization Email**, **Person Sending Quote**, or **Assigned User**
+- **Organization Reply Email** — When using Organization Email, enter the address (e.g., quotes@yourcompany.com) where customers should reply
 
 ---
 
-## Quote Display
+## Labor Categories
 
-Control what appears on each quote using the toggles in the Quote Options panel:
+Define the labor types available when adding labor line items to quotes. These categories appear in the Labor Category dropdown when you add a labor item in the Quote Builder.
 
-- Toggle **Show Company Information** on or off
-- Toggle **Show Company Logo** on or off
-- Toggle **Show CAD Files**, **Show Quantities**, **Show Unit Prices**, **Show Line Totals** as needed
-- Configure **Rollup Items** (requires unit prices or line totals enabled)
+- **Add Labor Category** — Click to add a new category
+- **Labor Category 1, 2, 3…** — Enter a name for each category (e.g., CNC Labor, Shop Labor, Design Labor, Installation)
+- **Remove** — Remove a category you no longer need
+
+Default categories are CNC Labor, Shop Labor, and Design Labor. Add or edit categories to match how your shop tracks labor on quotes.
+
+---
+
+**Related:** To override these settings for a single quote, use the [Quote Options panel](quotes/quote-options-panel.md) in the Quote Builder.

@@ -11,3 +11,4 @@ Quotes, inquiries, and forms.
 
 - [Create a Quote](create-quote.md)
 - [Quote Settings](../quote-settings.md)
+- [Quote Options Panel](quote-options-panel.md)
