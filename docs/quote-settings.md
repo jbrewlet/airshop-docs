@@ -1,6 +1,7 @@
 ---
 title: AirShop Quote Settings
 description: Customize your quotes with your logo, styling, and preferences. Override org settings per quote.
+keywords: [logo, margin, tax, labor categories, currency, quote number format, company info, branding]
 ---
 
 # Quote Settings

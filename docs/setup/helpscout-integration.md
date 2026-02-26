@@ -1,6 +1,7 @@
 ---
 title: Help Scout Integration
 description: Connect Help Scout to AirShop to view inquiries, create quotes, and manage customer conversations from the sidebar.
+keywords: [helpscout, sidebar app, mailbox id, content signature key, custom app]
 ---
 
 # Help Scout Integration

@@ -1,6 +1,7 @@
 ---
 title: Inventory
 description: Inventory management, QR code scanning, bulk import, export, cards, and bin labels in AirShop.
+keywords: [inventory section]
 ---
 
 # Inventory

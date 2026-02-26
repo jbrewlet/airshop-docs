@@ -1,6 +1,7 @@
 ---
 title: Inquiry Forms
 description: Share your AirShop inquiry form as a Hosted URL or Embed. Setup for Instagram, email, websites, and QR codes.
+keywords: [hosted url, embed, iframe, instagram bio, wordpress, wix, link in bio]
 ---
 
 # Inquiry Forms

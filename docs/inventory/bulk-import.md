@@ -1,6 +1,7 @@
 ---
 title: Bulk Import
 description: Import multiple AirShop inventory items from CSV or Excel. Format, required fields, and column mapping.
+keywords: [csv excel upload, column mapping, required fields, status values, sku duplicate]
 ---
 
 # Bulk Import Inventory Items

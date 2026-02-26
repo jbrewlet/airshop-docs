@@ -1,6 +1,7 @@
 ---
 title: Kanban Cards & Bin Labels
 description: Guide to Kanban cards and bin labels. Keep item names and descriptions readable when printed.
+keywords: [character limit, truncation, 3x5, a7, bin label size, print formatting]
 ---
 
 # Guide to Kanban Cards & Bin Labels

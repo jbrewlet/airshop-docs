@@ -1,6 +1,7 @@
 ---
 title: Can I just use quoting or inventory?
 description: Use AirShop quotes only, inventory only, or both. Modules work independently. Choose what fits your business.
+keywords: [quotes only, inventory only, use one module, standalone]
 ---
 
 # Can I just use quoting or inventory?

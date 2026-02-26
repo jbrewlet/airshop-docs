@@ -1,6 +1,7 @@
 ---
 title: Glossary
 description: Key AirShop terms in plain language. Quick reference for shop owners and staff.
+keywords: [glossary, kanban, sku, source, lead time, stocktake, bin label]
 ---
 
 # Glossary

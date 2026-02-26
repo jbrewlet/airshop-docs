@@ -1,6 +1,7 @@
 ---
 title: URL Cleaning
 description: AirShop automatically strips tracking parameters and affiliate tags from product URLs for cleaner inventory links.
+keywords: [utm, tracking params, affiliate, purchase url, amazon mcmaster, vendor url]
 ---
 
 # URL Cleaning Feature Guide

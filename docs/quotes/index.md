@@ -1,6 +1,7 @@
 ---
 title: Quotes
 description: Create and manage quotes, inquiries, and forms in AirShop.
+keywords: [quotes section]
 ---
 
 # Quotes

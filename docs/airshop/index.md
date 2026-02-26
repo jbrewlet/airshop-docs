@@ -1,6 +1,7 @@
 ---
 title: AirShop
 description: General features, keyboard shortcuts, and tips for the AirShop platform.
+keywords: [airshop section]
 ---
 
 # AirShop

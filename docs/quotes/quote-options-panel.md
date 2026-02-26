@@ -1,6 +1,7 @@
 ---
 title: Quote Options Panel
 description: Override organization settings per quote using the Quote Options panel in the Quote Builder.
+keywords: [quote options panel, override per quote, show company logo, rollup items]
 ---
 
 # Quote Options Panel

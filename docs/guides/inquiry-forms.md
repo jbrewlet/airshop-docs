@@ -1,6 +1,7 @@
 ---
 title: Inquiry Forms
 description: Share your AirShop inquiry form as a Hosted URL or Embed. Setup for Instagram, email, websites, and QR codes.
+keywords: [form drawer, share form, request quote form, embed code]
 ---
 
 # AirShop Inquiry Forms Guide

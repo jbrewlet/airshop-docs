@@ -1,6 +1,7 @@
 ---
 title: Overview
 description: AirShop helps you manage quotes, orders, and inventory. Getting started and first steps.
+keywords: [overview, what's in docs]
 ---
 
 # Overview

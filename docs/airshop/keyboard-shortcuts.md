@@ -1,6 +1,7 @@
 ---
 title: Keyboard Shortcuts
 description: AirShop keyboard shortcuts for navigation, search, and workflow. Mac and Windows key mappings.
+keywords: [command k, command b, add new menu, c then q, hotkeys]
 ---
 
 # AirShop Keyboard Shortcuts Guide

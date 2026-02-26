@@ -1,6 +1,7 @@
 ---
 title: Quick Start
 description: Get started with AirShop in a few steps. Sign in, complete your profile, and explore the dashboard.
+keywords: [sign in, first steps, prerequisites, browser]
 ---
 
 # Quick Start

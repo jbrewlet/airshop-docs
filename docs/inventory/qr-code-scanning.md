@@ -1,6 +1,7 @@
 ---
 title: QR Code Scanning
 description: How QR codes work on AirShop cards and bin labels. Recommended scanners, setup, and mobile scanning.
+keywords: [scanner, tera 8100, barcode, mobile scan, focus field, scan troubleshooting]
 ---
 
 # QR Code Scanning

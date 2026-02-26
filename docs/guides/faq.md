@@ -1,6 +1,7 @@
 ---
 title: FAQ
 description: Frequently asked questions about AirShop: what it is, how to get support, and common setup questions.
+keywords: [what is airshop, support, contact help]
 ---
 
 # Frequently Asked Questions

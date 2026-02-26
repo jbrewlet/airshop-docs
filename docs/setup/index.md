@@ -1,6 +1,7 @@
 ---
 title: Setup
 description: Getting started, configuration, inquiry forms, and integrations for AirShop.
+keywords: [setup section]
 ---
 
 # Setup
