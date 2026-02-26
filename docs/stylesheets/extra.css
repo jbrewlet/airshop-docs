@@ -23,6 +23,22 @@
   --md-accent-fg-color: #FF5918;
   --md-accent-fg-color--transparent: rgba(255, 89, 24, 0.15);
 
+  /* Admonitions - each distinct, theme.ts palette variants */
+  --md-admonition-note-fg: #81c784; /* bright green */
+  --md-admonition-note-fg--transparent: rgba(129, 199, 132, 0.15);
+  --md-admonition-info-fg: #00bcd4; /* cyan */
+  --md-admonition-info-fg--transparent: rgba(0, 188, 212, 0.15);
+  --md-admonition-abstract-fg: #26a69a; /* teal */
+  --md-admonition-abstract-fg--transparent: rgba(38, 166, 154, 0.15);
+  --md-admonition-success-fg: #43a047; /* green */
+  --md-admonition-success-fg--transparent: rgba(67, 160, 71, 0.15);
+  --md-admonition-question-fg: #ba68c8; /* purple */
+  --md-admonition-question-fg--transparent: rgba(186, 104, 200, 0.15);
+  --md-admonition-warning-fg: #FF5918; /* cta orange */
+  --md-admonition-warning-fg--transparent: rgba(255, 89, 24, 0.15);
+  --md-admonition-danger-fg: #ef5350; /* red */
+  --md-admonition-danger-fg--transparent: rgba(239, 83, 80, 0.15);
+
   /* Links: inherit text color, orange underline */
   --md-typeset-a-color: #f2f2f2;
   --md-typeset-color: #f2f2f2;
@@ -341,4 +357,98 @@
   font-size: 0.9rem;
   opacity: 0.85;
   line-height: 1.5;
+}
+
+/* Custom tooltips - match AirShop app (MUI Tooltip + theme.ts dark) */
+.airshop-tooltip {
+  position: fixed;
+  z-index: 100000;
+  transform: translate(-50%, calc(-100% - 4px));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s ease-out;
+  background-color: rgba(55, 55, 55, 0.95);
+  color: #f2f2f2;
+  font-size: 0.75rem;
+  font-weight: 400;
+  padding: 4px 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  max-width: 16rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+.airshop-tooltip--visible {
+  opacity: 1;
+}
+
+/* Admonition icon tooltip overlay - covers icon area for title tooltip */
+.md-typeset .admonition-title {
+  position: relative;
+}
+.md-typeset .admonition-icon-tooltip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2rem;
+  height: 100%;
+  cursor: help;
+}
+
+/* Admonitions - theme.ts palette (note/info blue, abstract navy, tip/success green, question purple, warning orange, danger red) */
+[data-md-color-scheme="slate"] .md-typeset .admonition {
+  background-color: var(--md-default-bg-color--light);
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.note { border-color: var(--md-admonition-note-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.note > .admonition-title { background-color: var(--md-admonition-note-fg--transparent); color: var(--md-admonition-note-fg); border-color: var(--md-admonition-note-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.note > .admonition-title::before { background-color: var(--md-admonition-note-fg); }
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.info { border-color: var(--md-admonition-info-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.info > .admonition-title { background-color: var(--md-admonition-info-fg--transparent); color: var(--md-admonition-info-fg); border-color: var(--md-admonition-info-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.info > .admonition-title::before { background-color: var(--md-admonition-info-fg); }
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.abstract { border-color: var(--md-admonition-abstract-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.abstract > .admonition-title { background-color: var(--md-admonition-abstract-fg--transparent); color: var(--md-admonition-abstract-fg); border-color: var(--md-admonition-abstract-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.abstract > .admonition-title::before { background-color: var(--md-admonition-abstract-fg); }
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.success { border-color: var(--md-admonition-success-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.success > .admonition-title { background-color: var(--md-admonition-success-fg--transparent); color: var(--md-admonition-success-fg); border-color: var(--md-admonition-success-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.success > .admonition-title::before { background-color: var(--md-admonition-success-fg); }
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.question { border-color: var(--md-admonition-question-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.question > .admonition-title { background-color: var(--md-admonition-question-fg--transparent); color: var(--md-admonition-question-fg); border-color: var(--md-admonition-question-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.question > .admonition-title::before { background-color: var(--md-admonition-question-fg); }
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning { border-color: var(--md-admonition-warning-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning > .admonition-title { background-color: var(--md-admonition-warning-fg--transparent); color: var(--md-admonition-warning-fg); border-color: var(--md-admonition-warning-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning > .admonition-title::before { background-color: var(--md-admonition-warning-fg); }
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.danger,
+[data-md-color-scheme="slate"] .md-typeset .admonition.failure,
+[data-md-color-scheme="slate"] .md-typeset .admonition.bug { border-color: var(--md-admonition-danger-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.danger > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .admonition.failure > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .admonition.bug > .admonition-title { background-color: var(--md-admonition-danger-fg--transparent); color: var(--md-admonition-danger-fg); border-color: var(--md-admonition-danger-fg); }
+[data-md-color-scheme="slate"] .md-typeset .admonition.danger > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .admonition.failure > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .admonition.bug > .admonition-title::before { background-color: var(--md-admonition-danger-fg); }
+
+/* Nav hint - how to find this page, distinct from doc content */
+.md-typeset .nav-hint {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--md-default-bg-color--light);
+  border-left: 3px solid var(--md-accent-fg-color);
+}
+
+/* Screenshots - constrained width, centered, preserves flow */
+.md-typeset img.screenshot {
+  display: block;
+  max-width: min(560px, 100%);
+  width: auto;
+  height: auto;
+  margin: 1rem auto 1.5rem;
+  border-radius: 0.25rem;
 }

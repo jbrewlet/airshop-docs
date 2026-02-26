@@ -99,3 +99,4 @@ nav:
   - Quotes:
     - Quotes: quotes/index.md
     - Create a Quote: quotes/create-quote.md
+    - Quote Settings: quote-settings.md

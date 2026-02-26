@@ -10,3 +10,4 @@ Quotes, inquiries, and forms.
 ## Articles
 
 - [Create a Quote](create-quote.md)
+- [Quote Settings](../quote-settings.md)
