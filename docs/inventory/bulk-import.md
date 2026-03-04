@@ -12,10 +12,14 @@ Bulk import lets you add multiple inventory items at once by uploading a CSV or 
 - Add many new products quickly
 - Update multiple items at once
 
+**How to access:** [Import Data](https://airshop.work/import) (all imports), or [Inventory](https://airshop.work/inventory) → ITEM dropdown → Import, or [Inventory Import](https://airshop.work/inventory/import)
+
+See [Bulk Imports](../imports/index.md) for organizations and customers import.
+
 ## Quick Start
 
-1. Go to [**Inventory**](https://airshop.work/inventory) ([Dashboard](https://airshop.work/inventory) or [Items](https://airshop.work/inventory/items)). Click the dropdown arrow (▼) next to the **ITEM** button, then select **Import**. Or go directly to the [Import page](https://airshop.work/inventory/import).
-2. Download the **Sample CSV** (from the import modal or [Import page](https://airshop.work/inventory/import)) to see the format
+1. Go to [**Import Data**](https://airshop.work/import) or [**Inventory**](https://airshop.work/inventory) ([Dashboard](https://airshop.work/inventory) or [Items](https://airshop.work/inventory/items)). From Inventory, click the dropdown arrow (▼) next to the **ITEM** button, then select **Import**.
+2. Download the template `airshop-inventory-import-template.csv` (from the import modal or [Import Data](https://airshop.work/import)) to see the format
 3. Fill in your data using the sample as a template
 4. Upload your file (CSV or Excel, max 10MB)
 5. Map your columns (the system auto-detects most fields)
@@ -129,7 +133,7 @@ Laptop Stand,TS-001,ORDER_NOW,https://example.com/main.jpg,"https://example.com/
 
 ## Advanced Features
 
-- **Undo import:** Administrators can use "Undo" in [Import History](https://airshop.work/inventory/import) to remove all products from a specific import
+- **Undo import:** Administrators can use "Undo" in [Import History](https://airshop.work/import) (or [Inventory Import](https://airshop.work/inventory/import)) to remove all products from a specific import
 - **Cancel import:** Stop a long-running import anytime from the processing screen
 - **Vendor URL mapping:** If a column has URLs (e.g., mcmaster.com), you can map them to vendor names (e.g., McMaster-Carr) to avoid junk records. Vendor info can create [Sources](https://airshop.work/sources).
 - **Stocktake integration:** If a [stocktake](https://airshop.work/stocktake) is in progress, newly imported items are automatically added to the count list
@@ -164,9 +168,9 @@ Laptop Stand,TS-001,ORDER_NOW,https://example.com/main.jpg,"https://example.com/
 ## Tips & Best Practices
 
 1. **Start small:** Test with 5–10 items first
-2. **Use the sample:** Download the sample CSV and modify it for correct formatting
+2. **Use the template:** Download `airshop-inventory-import-template.csv` and modify it for correct formatting
 3. **Check the preview:** Review what will be imported before confirming
-4. **Backup first:** [Export your current inventory](https://airshop.work/inventory/items) before large imports (same dropdown as Import)
+4. **Backup first:** [Export your current inventory](https://airshop.work/inventory/items) before large imports (export uses `airshop-inventory-export-*.csv` format)
 5. **Consistent formatting:** Use the same format for categories, units, and locations across all rows
 6. **Review errors:** If some rows fail, download the error report CSV to see what went wrong
 

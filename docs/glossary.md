@@ -36,9 +36,9 @@ See [Cards & Bin Labels](inventory/cards-and-labels.md), [QR Code Scanning](inve
 
 ## Bulk import
 
-Add or update many items at once by uploading a spreadsheet.
+Add or update many records at once by uploading a spreadsheet. Import organizations, customers, or inventory from Settings → Import Data.
 
-See [Bulk Import](inventory/bulk-import.md). [Open Import](https://airshop.work/inventory/import)
+See [Bulk Imports](imports/index.md). [Open Imports page](https://airshop.work/import)
 
 ---
 
@@ -68,7 +68,7 @@ See [Inquiry Forms](setup/inquiry-forms.md). [Open Forms](https://airshop.work/f
 
 ## Form drawer
 
-The panel that opens when you click a form. Shows the link and embed code to share it.
+The panel that opens when you click a form row. Shows the Hosted URL, Embed code, and form customization (title, fields, confirmation message).
 
 See [Inquiry Forms](setup/inquiry-forms.md). [Open Forms](https://airshop.work/forms)
 
@@ -87,6 +87,14 @@ See [Inquiry Forms](setup/inquiry-forms.md). [Open Forms](https://airshop.work/f
 When someone fills out your form asking for a quote. You can turn it into a quote.
 
 See [Inquiry Forms](setup/inquiry-forms.md), [Create a Quote](quotes/create-quote.md). [Open Inquiries](https://airshop.work/inquiries)
+
+---
+
+## Inquiry Settings
+
+Where you configure materials, services, referral sources, notifications, and auto-reply emails for inquiry forms.
+
+See [Inquiry Settings](setup/inquiry-settings.md), [Inquiry Forms](setup/inquiry-forms.md). [Open Inquiry Settings](https://airshop.work/settings/inquiry-settings)
 
 ---
 

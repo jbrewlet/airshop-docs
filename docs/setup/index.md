@@ -12,4 +12,5 @@ Getting started, configuration, and integration.
 
 - [Quick Start](quick-start.md)
 - [Inquiry Forms](inquiry-forms.md)
+- [Inquiry Settings](inquiry-settings.md)
 - [FAQ](faq.md)

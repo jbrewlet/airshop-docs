@@ -1,12 +1,12 @@
 ---
 title: Inquiry Forms
-description: Share your AirShop inquiry form as a Hosted URL or Embed. Setup for Instagram, email, websites, and QR codes.
-keywords: [hosted url, embed, iframe, instagram bio, wordpress, wix, link in bio]
+description: Share your AirShop inquiry form as a Hosted URL or Embed. Configure form fields, materials, and services.
+keywords: [hosted url, embed, iframe, instagram bio, wordpress, wix, link in bio, form drawer, default form, part-specific]
 ---
 
 # Inquiry Forms
 
-Your inquiry form collects project details from potential customers. You can share it in two ways: as a **Hosted URL** (a direct link) or as an **Embed** (form built into your website). This guide explains both options and when to use each.
+Your inquiry form collects project details from potential customers. You can share it in two ways: as a **Hosted URL** (a direct link) or as an **Embed** (form built into your website). This guide explains both options, form types, and how to configure your forms.
 
 ## Quick Start: Who Does What?
 
@@ -15,6 +15,34 @@ Your inquiry form collects project details from potential customers. You can sha
 - **Your marketing or social team:** Uses the Hosted URL in Instagram bio, email signatures, text messages, and more.
 
 If you don't manage your own site, send this guide and the relevant link or code to whoever does.
+
+---
+
+## Form Types
+
+AirShop provides two inquiry form types:
+
+| Form | Best For |
+|------|----------|
+| **Default Inquiry Form** | General quote requests. Collects contact info, project details, services, materials, budget, deadline, and file attachments. |
+| **Part-Specific Inquiry Form** | Quote requests tied to specific parts. Same fields as Default, plus a **Part files** section where customers upload CAD or part files for each item. |
+
+Both forms use the same [Inquiry Settings](inquiry-settings.md) for materials, services, and referral source options. You can use one or both forms.
+
+![Inquiry Forms page showing Default and Part-Specific forms](../assets/inquiry-forms.png){ .screenshot }
+
+---
+
+## Managing Forms
+
+1. Go to **Forms** in the left nav (or **Settings** → **Forms**).
+2. Click a form row to open the **form drawer**.
+3. In the drawer you can:
+   - Copy the **Hosted URL** or **Embed code**
+   - Customize **Title** and **Subtitle**
+   - Toggle **Form Fields** (show/hide, required)
+   - Set the **Confirmation Message** shown after submission
+   - Configure **Materials** and **Services** (links to [Inquiry Settings](inquiry-settings.md))
 
 ## Option 1: Hosted URL
 
@@ -78,6 +106,20 @@ If your site has a basic "Contact us" form, the embed is a better option because
 
    Paste the code there and save. The form will appear on the page.
 
+---
+
+## Form Drawer Configuration
+
+When you click a form row, the drawer lets you customize:
+
+- **Title & Subtitle** — Shown at the top of the form. Use `{orgName}` in the subtitle to insert your organization name.
+- **Form Fields** — Toggle each field **Show** (visible) and **Required**. Fields include Name, Email, Phone, Organization, Project Name, Services Needed, Materials, Budget, Deadline, How did you find us, and File Attachments. Materials and Services link to [Inquiry Settings](inquiry-settings.md) to configure dropdown options.
+- **Prompt when submitting without files** — If enabled (Default form only), users who submit with no attachments see a reminder dialog.
+- **Confirmation Message** — Title and message shown after successful submission.
+- **Reset to default template** — Restore the form to its original field layout.
+
+---
+
 ## Summary
 
 | Option | Use When |
@@ -86,3 +128,10 @@ If your site has a basic "Contact us" form, the embed is a better option because
 | **Embed** | You want the form on your website instead of (or in addition to) a contact form. |
 
 Both options use the same form and send submissions to the same place. You can use one or both. For example, embed on your site and also share the Hosted URL in your Instagram bio.
+
+---
+
+## Related
+
+- [Inquiry Settings](inquiry-settings.md) — Materials, services, referral sources, notifications, and auto-reply
+- [Setup FAQ](faq.md) — Common questions

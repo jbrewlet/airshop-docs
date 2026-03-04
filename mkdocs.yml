@@ -77,27 +77,34 @@ extra_javascript:
   - javascripts/extra.js
 
 nav:
-  - Home: index.md
   - AirShop:
     - AirShop: airshop/index.md
+    - Can I just use quoting or inventory?: airshop/use-one-part.md
     - Glossary: glossary.md
     - Keyboard Shortcuts: airshop/keyboard-shortcuts.md
-    - Can I just use quoting or inventory?: airshop/use-one-part.md
-  - Setup:
-    - Setup: setup/index.md
-    - Quick Start: setup/quick-start.md
-    - Inquiry Forms: setup/inquiry-forms.md
-    - Help Scout Integration: setup/helpscout-integration.md
-    - FAQ: setup/faq.md
+  - Home: index.md
+  # https://docs.airshop.work/imports
+  - Imports & Exports:
+    - Bulk Imports: imports/index.md
+    - Bulk Import Customers: imports/bulk-import-customers.md
+    - Bulk Import Inventory: inventory/bulk-import.md
+    - Bulk Import Organizations: imports/bulk-import-organizations.md
+    - Inventory Export: inventory/inventory-export.md
   - Inventory:
     - Inventory: inventory/index.md
-    - QR Code Scanning: inventory/qr-code-scanning.md
-    - Inventory Export: inventory/inventory-export.md
-    - Bulk Import: inventory/bulk-import.md
     - Cards & Bin Labels: inventory/cards-and-labels.md
+    - QR Code Scanning: inventory/qr-code-scanning.md
     - URL Cleaning: inventory/url-cleaning.md
+    - Inventory Export: inventory/inventory-export.md
   - Quotes:
     - Quotes: quotes/index.md
     - Create a Quote: quotes/create-quote.md
-    - Quote Settings: quote-settings.md
     - Quote Options Panel: quotes/quote-options-panel.md
+    - Quote Settings: quote-settings.md
+  - Setup:
+    - Setup: setup/index.md
+    - FAQ: setup/faq.md
+    - Help Scout Integration: setup/helpscout-integration.md
+    - Inquiry Forms: setup/inquiry-forms.md
+    - Inquiry Settings: setup/inquiry-settings.md
+    - Quick Start: setup/quick-start.md

@@ -11,14 +11,17 @@ Public documentation site for [AirShop](https://airshop.work), built with [MkDoc
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-mkdocs serve
+.venv/bin/pip install -r requirements.txt
+.venv/bin/mkdocs serve
 ```
 
 Open http://127.0.0.1:8000
 
-**Restart the server:** Press `Ctrl+C` in the terminal to stop, then run `mkdocs serve` again. Or run `pkill -f "mkdocs serve"` in another terminal, then start `mkdocs serve`.
+No need to activate the venv—use the full path. On Windows: `.venv\Scripts\pip install -r requirements.txt` and `.venv\Scripts\mkdocs serve`.
+
+**Restart the server:** Press `Ctrl+C` to stop, then run `.venv/bin/mkdocs serve` again. Or `pkill -f "mkdocs serve"` then start it.
+
+**Port 8000 in use?** `.venv/bin/mkdocs serve -a 127.0.0.1:8001` (then open http://127.0.0.1:8001)
 
 ---
 
@@ -38,7 +41,7 @@ See **[SETUP.md](SETUP.md)** for step-by-step instructions:
 ## Build
 
 ```bash
-mkdocs build
+.venv/bin/mkdocs build
 ```
 
 Output is in `site/`.

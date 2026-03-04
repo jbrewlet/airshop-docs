@@ -12,6 +12,6 @@ Inventory management, export, and QR scanning.
 
 - [QR Code Scanning](qr-code-scanning.md)
 - [Inventory Export](inventory-export.md)
-- [Bulk Import](bulk-import.md)
+- [Bulk Import](bulk-import.md) — also via [Import Data](https://airshop.work/import)
 - [Cards & Bin Labels](cards-and-labels.md)
 - [URL Cleaning](url-cleaning.md)
