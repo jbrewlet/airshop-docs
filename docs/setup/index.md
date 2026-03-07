@@ -11,6 +11,7 @@ Getting started, configuration, and integration.
 ## Articles
 
 - [Quick Start](quick-start.md)
+- [Subscription](subscription.md)
 - [Inquiry Forms](inquiry-forms.md)
 - [Inquiry Settings](inquiry-settings.md)
 - [FAQ](faq.md)

@@ -18,6 +18,14 @@ See [Keyboard Shortcuts](airshop/keyboard-shortcuts.md).
 
 ---
 
+## Subscription
+
+Your organization's plan and payment for AirShop access. Organization administrators manage subscription, plans, and payment at [airshop.work/subscription](https://airshop.work/subscription).
+
+See [Subscription](setup/subscription.md). [Open Subscription](https://airshop.work/subscription)
+
+---
+
 ## AirShop
 
 The app that helps you manage quotes, orders, and inventory for your shop or fabrication business.
@@ -167,6 +175,14 @@ See [Bulk Import](inventory/bulk-import.md). [Open Items](https://airshop.work/i
 Your company or team's AirShop account. Admins manage settings and who can export or import.
 
 See [Bulk Import](inventory/bulk-import.md). [Open Organization Settings](https://airshop.work/settings/organization-settings)
+
+---
+
+## Organization Administrator
+
+A person who can manage settings, subscription, imports, and exports for the organization. Only admins can access the Subscription page and Import Data.
+
+See [Subscription](setup/subscription.md), [Bulk Imports](imports/index.md). [Open Settings](https://airshop.work/settings)
 
 ---
 
