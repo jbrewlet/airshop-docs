@@ -103,6 +103,8 @@ nav:
   - Quotes:
     - Quotes: quotes/index.md
     - Create a Quote: quotes/create-quote.md
+    - Quote Follow-ups: follow-ups.md
+    - Quote View Tracking: quotes/view-tracking.md
     - Quote Options Panel: quotes/quote-options-panel.md
     - Quote Settings: quote-settings.md
   - Setup:

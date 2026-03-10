@@ -11,5 +11,11 @@ Quotes, inquiries, and forms.
 ## Articles
 
 - [Create a Quote](create-quote.md)
-- [Quote Settings](../quote-settings.md)
+- [Quote Statuses](quote-statuses.md)
+- [Send and Share Quotes](send-and-share-quotes.md)
+- [Quote Revisions](quote-revisions.md)
+- [Troubleshooting Quote Delivery](troubleshooting-quote-delivery.md)
+- [Quote Follow-ups](../follow-ups.md)
+- [Quote View Tracking](view-tracking.md)
 - [Quote Options Panel](quote-options-panel.md)
+- [Quote Settings](../quote-settings.md)

@@ -11,7 +11,7 @@ keywords: [logo, margin, tax, labor categories, currency, quote number format, c
 - In **Left Nav**, expand **Settings** → **Quote Settings**
 - OR **Search** `⌘K` (Mac) / `Ctrl+K` (Windows) for **Quote Settings**
 
-[Open Quote Settings](https://airshop.work/settings){ target="_blank" rel="noopener noreferrer" }
+[Open Quote Settings](https://airshop.work/settings/quote-settings){ target="_blank" rel="noopener noreferrer" }
 
 ---
 AirShop lets you customize your quotes to match your brand and workflow. Add your logo, control what appears on each quote, and set default margin and tax. Organization-level defaults apply to new quotes unless you override them per quote using the [Quote Options panel](quotes/quote-options-panel.md).
@@ -95,6 +95,18 @@ Use the Preview panel to see changes before saving.
 
 !!! info "Coming Q1 2026"
     Payment options will be available in Quotes in Q1 – 2026.
+
+---
+
+## Quote Follow-up Settings
+
+Configure when follow-up reminders appear and the email templates used to reach out to customers about sent quotes. See [Quote Follow-ups](follow-ups.md) for full details.
+
+Configure in [Quote Templates](https://airshop.work/settings/quote-templates){ target="_blank" rel="noopener noreferrer" } under **Follow-up Email Templates & Timing**:
+
+- **Enable follow-ups** — Turn reminders on or off
+- **Schedule** — Unopened (hours), First (days), Second (days), Third (days)
+- **Templates** — Subject and body for each follow-up step, with tokens like `[Quote-title]`, `[Customer-given-names]`, `[quote-link]`
 
 ---
 
