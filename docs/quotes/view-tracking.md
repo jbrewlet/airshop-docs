@@ -61,13 +61,13 @@ Only **customer views** are counted. When you or your team open the quote link w
 
 ## Related Features
 
-- **[Quote Follow-ups](follow-ups.md)** — Uses view tracking to decide when follow-ups are due. If the quote hasn't been viewed within a set number of hours, a first follow-up can be triggered. After it's viewed, later follow-ups use days since last viewed.
+- **[Quote Follow-ups](../follow-ups.md)** — Uses view tracking to decide when follow-ups are due. If the quote hasn't been viewed within a set number of hours, a first follow-up can be triggered. After it's viewed, later follow-ups use days since last viewed.
 - **[Stats](https://airshop.work/stats){ target="_blank" rel="noopener noreferrer" }** — Quote views appear in org trends and workflow impact metrics (quote view rate, customer views to date).
 
 ---
 
 ## Related
 
-- [Quote Follow-ups](follow-ups.md)
+- [Quote Follow-ups](../follow-ups.md)
 - [Create a Quote](create-quote.md)
 - [Quote Settings](../quote-settings.md)
