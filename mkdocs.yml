@@ -35,6 +35,9 @@ theme:
 plugins:
   - search:
       lang: en
+  - glightbox:
+      effect: none
+      slide_effect: none
   - social:
       cards_layout_dir: layouts
       cards_layout: airshop
@@ -100,6 +103,10 @@ nav:
     - QR Code Scanning: inventory/qr-code-scanning.md
     - URL Cleaning: inventory/url-cleaning.md
     - Inventory Export: inventory/inventory-export.md
+  - Inquiries:
+    - Inquiry Forms: setup/inquiry-forms.md
+    - Inquiry Settings: setup/inquiry-settings.md
+    - Open in Fusion: open-fusion.md
   - Quotes:
     - Quotes: quotes/index.md
     - Create a Quote: quotes/create-quote.md
@@ -112,6 +119,4 @@ nav:
     - Subscription: setup/subscription.md
     - FAQ: setup/faq.md
     - Help Scout Integration: setup/helpscout-integration.md
-    - Inquiry Forms: setup/inquiry-forms.md
-    - Inquiry Settings: setup/inquiry-settings.md
     - Quick Start: setup/quick-start.md

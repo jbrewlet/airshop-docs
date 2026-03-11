@@ -4,6 +4,11 @@
  * Message us links open Tawk chat when available
  */
 (function () {
+  /* GLightbox: document$ is only defined when Material instant nav is enabled. Provide no-op shim so init script does not throw. */
+  if (typeof document$ === "undefined") {
+    window.document$ = { subscribe: function () {} };
+  }
+
   /* Dev fallback: auto-refresh every 30s on localhost when livereload fails */
   if (/^(localhost|127\.0\.0\.1)(:\d+)?$/.test(window.location.host)) {
     setInterval(function () { location.reload(); }, 30000);

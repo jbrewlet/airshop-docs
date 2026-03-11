@@ -443,6 +443,25 @@
   border-left: 3px solid var(--md-accent-fg-color);
 }
 
+/* GLightbox - instant (effect: none) or minimal overlay fade */
+.glightbox-container .gslider {
+  transition: none;
+}
+.gfadeIn, .gfadeOut { animation-duration: 0.08s; }
+.gslideOutLeft, .gslideInLeft, .gslideOutRight, .gslideInRight {
+  animation-duration: 0.08s;
+}
+.gzoomIn, .gzoomOut {
+  animation-duration: 0.08s;
+}
+.gdesc-open .gslide-media,
+.gdesc-closed .gslide-media {
+  transition-duration: 0.08s;
+}
+.greset {
+  transition-duration: 0.08s;
+}
+
 /* Screenshots - constrained width, centered, preserves flow */
 .md-typeset img.screenshot {
   display: block;
