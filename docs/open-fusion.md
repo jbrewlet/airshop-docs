@@ -1,12 +1,12 @@
 ---
 title: Open in Fusion
-description: Open 3D CAD files from AirShop inquiries directly in Autodesk Fusion 360.
-keywords: [open in fusion, fusion 360, cad, step, inquiry attachments, 3d viewer]
+description: Open 3D CAD files from AirShop inquiries directly in Autodesk Fusion.
+keywords: [open in fusion, Fusion, cad, step, inquiry attachments, 3d viewer]
 ---
 
 # Open in Fusion
 
-You can open 3D model files from inquiry attachments directly in **Autodesk Fusion 360**. This lets you work on CAD files without downloading them first.
+You can open 3D model files from inquiry attachments directly in **Autodesk Fusion**. This lets you work on CAD files without downloading them first.
 
 [Open Inquiries](https://airshop.work/inquiries){ target="_blank" rel="noopener noreferrer" }
 
@@ -38,32 +38,34 @@ When a compatible 3D model is displayed in AirShop's integrated 3D viewer:
 
 | Format | Supported |
 |--------|-----------|
+| **Fusion** (`.f3d`) | Yes — native format |
 | **STEP** (`.step`, `.stp`) | Yes — confirmed working |
-| **IGES** (`.iges`, `.igs`) | Typically supported by Fusion 360 |
-| **STL** | Typically supported by Fusion 360 |
-| **OBJ** | Typically supported by Fusion 360 |
+| **IGES** (`.iges`, `.igs`) | Yes |
+| **SAT** (`.sat`) | Yes |
+| **STL** (`.stl`) | Yes |
+| **OBJ** (`.obj`) | Yes |
 
-The **Open in Fusion** option appears only for file types that Fusion 360 can open. Non-CAD files (e.g., images, PDFs) do not show this option.
+The **Open in Fusion** option appears only for file types that Fusion can open via the `fusion360://` protocol. Non-CAD files (e.g., images, PDFs) do not show this option.
 
 ---
 
 ## Requirements
 
-- **Autodesk Fusion 360** must be installed on your computer.
+- **Autodesk Fusion** must be installed on your computer.
 - Your browser must allow the link to launch Fusion (some browsers block external app links).
-- The file format must be supported by Fusion 360.
+- The file format must be supported by Fusion.
 
 ---
 
 ## If Fusion Doesn't Open
 
-If Fusion 360 does not open when you click **Open in Fusion**, AirShop shows a dialog with options:
+If Fusion does not open when you click **Open in Fusion**, AirShop shows a dialog with options:
 
-- **Fusion may not have opened** — This can happen if Fusion 360 is not installed, your browser blocked the link, or the file format is not supported.
+- **Fusion may not have opened** — This can happen if Fusion is not installed, your browser blocked the link, or the file format is not supported.
 - **RETRY OPEN IN FUSION** — Try again.
 - **DOWNLOAD FILE** — Download the file and open it manually in Fusion.
 
-![Open in Fusion modal with retry and download options, and Fusion 360 showing loaded model](assets/open-fusion-2.png){ .screenshot }
+![Open in Fusion modal with retry and download options, and Fusion showing loaded model](assets/open-fusion-2.png){ .screenshot }
 
 ---
 

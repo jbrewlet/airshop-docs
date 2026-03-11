@@ -91,10 +91,10 @@ https://example.com/img1.jpg, https://example.com/img2.jpg, https://example.com/
 
 **Documents/attachments:** Put comma-separated URLs in `attachments`:
 ```
-https://example.com/spec.pdf, https://example.com/cad-file.step
+https://example.com/spec.pdf, https://example.com/cad-file.step, https://example.com/fusion.f3d
 ```
 
-**Important:** All URLs must be complete (start with http:// or https://). The system downloads and stores them securely in AirShop.
+**Important:** All URLs must be complete (start with http:// or https://). The system supports common CAD formats (STEP, IGES, STL, F3D, SLDPRT, etc.), PDFs, and images. The system downloads and stores them securely in AirShop.
 
 ## Example CSV Format
 
