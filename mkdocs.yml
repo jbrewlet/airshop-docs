@@ -117,6 +117,7 @@ nav:
   - Setup:
     - Setup: setup/index.md
     - Subscription: setup/subscription.md
+    - Referrals: setup/referrals.md
     - FAQ: setup/faq.md
     - Help Scout Integration: setup/helpscout-integration.md
     - Quick Start: setup/quick-start.md

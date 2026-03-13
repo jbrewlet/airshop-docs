@@ -12,6 +12,7 @@ Getting started, configuration, and integration.
 
 - [Quick Start](quick-start.md)
 - [Subscription](subscription.md)
+- [Referrals](referrals.md)
 - [Inquiry Forms](inquiry-forms.md)
 - [Inquiry Settings](inquiry-settings.md)
 - [FAQ](faq.md)

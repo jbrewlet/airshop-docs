@@ -5,7 +5,7 @@
   "assets/images/social/follow-ups.png": "9adc9f09cf16ade570a5618af4488b3e9162eabe",
   "assets/images/social/getting-started/overview.png": "2dd96ad0fd7233ee131585b5903e29595e840e19",
   "assets/images/social/getting-started/quick-start.png": "c7ca24cfb724087c797ae8f52c3f0761c680a89e",
-  "assets/images/social/glossary.png": "6fd7bf98401adb595e220ea4d6a03f8cfde42172",
+  "assets/images/social/glossary.png": "6baaa7170ac858f21e0f521c68bdc3e324753a1c",
   "assets/images/social/guides/faq.png": "0ce4d5524caf71a083f7a38b17a07e10745f30ea",
   "assets/images/social/guides/inquiry-forms.png": "a036ed9cefc328f3bc37b297e4de199ad637a5ce",
   "assets/images/social/imports/bulk-import-customers.png": "91b48dfd6d678889dd25be79a13c753b1aa0b78a",
@@ -18,7 +18,7 @@
   "assets/images/social/inventory/inventory-export.png": "4772332b9f630d1dbcfab5a0ff5b5d8b3d6e44ee",
   "assets/images/social/inventory/qr-code-scanning.png": "429de94add1d4583dd30d2dabc55cdc9732c27ca",
   "assets/images/social/inventory/url-cleaning.png": "2b2006e4fd39b64eb092ceecc13665f74e24f125",
-  "assets/images/social/open-fusion.png": "bc502095bb7755457c6aae7b9b0a74e7cd683790",
+  "assets/images/social/open-fusion.png": "f7d1379f4bdcddba9bb4c1f77c9df3f35215e012",
   "assets/images/social/quote-settings.png": "43a1ef3b8b5fa8341f7662fa770aaa69f0f1348e",
   "assets/images/social/quotes/create-quote.png": "caad17340a403356d5567396482bd54acbeea4a8",
   "assets/images/social/quotes/index.png": "592a279532b870b65ed61b2eb506a60975faa752",
@@ -35,5 +35,6 @@
   "assets/images/social/setup/inquiry-forms.png": "c2086e8b68e09bb6ebabb1d92ed4bd1459999a97",
   "assets/images/social/setup/inquiry-settings.png": "635fb05f8a61920a1222bb97b04eadf9454c2473",
   "assets/images/social/setup/quick-start.png": "c7ca24cfb724087c797ae8f52c3f0761c680a89e",
+  "assets/images/social/setup/referrals.png": "fe072ec40653977864bc9f202be30a14e9a3aeed",
   "assets/images/social/setup/subscription.png": "da463bfec4e922970fa2ee8eb7abbaaba5a6bdcb"
 }

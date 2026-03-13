@@ -17,7 +17,7 @@ Get started with AirShop in a few steps.
 
 1. Sign in at [airshop.work](https://airshop.work)
 2. Complete your profile if prompted
-3. Explore the dashboard
+3. Complete the `Getting Started Checklist`
 
 ## Next Steps
 

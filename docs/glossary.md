@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: Key AirShop terms in plain language. Quick reference for shop owners and staff.
+description: Key AirShop terms in plain language. Quick reference for business owners and staff.
 keywords: [glossary, kanban, sku, source, lead time, stocktake, bin label]
 ---
 
@@ -215,6 +215,14 @@ See [Create a Quote](quotes/create-quote.md). [Open Inquiries](https://airshop.w
 How many to order when you're running low. Shown as ORDER on Kanban cards.
 
 See [Cards & Bin Labels](inventory/cards-and-labels.md). [Open Items](https://airshop.work/inventory/items)
+
+---
+
+## Referrals
+
+Earn when you refer businesses to AirShop. Share your unique link; when they sign up and make their first payment, you receive a referral reward. Manage your link and view program details at [Settings → Account → Referrals](https://airshop.work/settings/account#referrals).
+
+See [Referrals](setup/referrals.md). [Open Account Settings](https://airshop.work/settings/account#referrals)
 
 ---
 

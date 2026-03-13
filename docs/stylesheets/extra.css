@@ -266,7 +266,27 @@
   display: none;
 }
 
-/* Home page */
+/* Home page - layout overrides (mdx-hero only on home) */
+body:has(.mdx-hero) .md-header {
+  position: initial;
+}
+body:has(.mdx-hero) .md-main__inner {
+  margin: 0;
+}
+body:has(.mdx-hero) .md-content {
+  display: none;
+}
+@media screen and (min-width: 60em) {
+  body:has(.mdx-hero) .md-sidebar--secondary {
+    display: none;
+  }
+}
+@media screen and (min-width: 76.25em) {
+  body:has(.mdx-hero) .md-sidebar--primary {
+    display: none;
+  }
+}
+
 .mdx-container {
   padding: 2rem 1rem 3rem;
 }
