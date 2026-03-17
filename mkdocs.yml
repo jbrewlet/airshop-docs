@@ -110,6 +110,10 @@ nav:
   - Quotes:
     - Quotes: quotes/index.md
     - Create a Quote: quotes/create-quote.md
+    - Quote Statuses: quotes/quote-statuses.md
+    - Send and Share Quotes: quotes/send-and-share-quotes.md
+    - Quote Revisions: quotes/quote-revisions.md
+    - Undo Quote Approval: quotes/undo-quote.md
     - Quote Follow-ups: follow-ups.md
     - Quote View Tracking: quotes/view-tracking.md
     - Quote Options Panel: quotes/quote-options-panel.md
