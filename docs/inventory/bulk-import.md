@@ -42,7 +42,7 @@ You can include any of these (all optional):
 - **category:** Product category
 - **unit:** Unit of measure (each, box, etc.)
 - **lead_time:** Days to receive when ordered
-- **location:** Storage location
+- **location:** Storage location. Maps to [Managed Locations](locations.md).
 - **image_url:** Main product image (full URL)
 - **additional_images:** Multiple images, comma-separated URLs
 - **attachments:** Documents/PDFs/CAD files, comma-separated URLs

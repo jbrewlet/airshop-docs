@@ -81,7 +81,7 @@ Use this guide to keep your inventory data readable on printed Kanban cards and 
 
 ## Bin Labels (Standard 2.125" × 1")
 
-Bin labels are smaller than cards. Be more concise.
+Bin labels are smaller than cards. Be more concise. For physical storage areas, see [Location Tags](location-tags.md).
 
 ### Item Name (Title)
 

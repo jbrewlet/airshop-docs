@@ -156,9 +156,17 @@ See [Cards & Bin Labels](inventory/cards-and-labels.md). [Open Cards](https://ai
 
 ## Location
 
-Where you store an item: shelf, bin, or area.
+Where you store an item: shelf, bin, or area. Managed locations have unique IDs (e.g., `LOC-A1B`).
 
-See [Cards & Bin Labels](inventory/cards-and-labels.md). [Open Locations](https://airshop.work/inventory/locations)
+See [Locations](inventory/locations.md), [Location Tags](inventory/location-tags.md). [Open Locations](https://airshop.work/inventory/locations)
+
+---
+
+## Location Tag
+
+A physical label with a QR code for a storage location. Scan to see all items in that location on your mobile device.
+
+See [Location Tags](inventory/location-tags.md). [Open Location Tags](https://airshop.work/inventory/location-tags)
 
 ---
 
