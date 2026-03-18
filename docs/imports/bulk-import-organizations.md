@@ -62,3 +62,4 @@ Download `airshop-organizations-import-template.csv` from the Import Organizatio
 
 - Import organizations **before** customers so customers can be linked by organization name
 - Use consistent organization names if you plan to link customers later
+- **QuickBooks / combined addresses:** If your export has a single address column (e.g. "123 Main St, Dallas, TX 75201"), map it to Street Address. AirShop automatically splits it into Street, City, State, and Postal Code.
