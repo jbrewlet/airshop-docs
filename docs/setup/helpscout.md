@@ -8,6 +8,14 @@ keywords: [helpscout, sidebar app, mailbox id, content signature key, custom app
 
 When you connect Help Scout to AirShop, the AirShop app appears in the sidebar of your Help Scout conversations.
 
+!!! note "Need Help Scout?"
+    We're a Help Scout partner. [Sign up for Help Scout through our link](https://helpscout.partnerlinks.io/airshop)—no extra cost to you, and we earn a commission.
+
+<picture>
+  <source srcset="/assets/helpscout.webp" type="image/webp">
+  <img src="/assets/helpscout.png" alt="AirShop app in the Help Scout sidebar showing inquiries and quotes" class="screenshot">
+</picture>
+
 ## What the Integration Does
 
 Your team can:

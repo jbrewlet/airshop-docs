@@ -15,4 +15,7 @@ Getting started, configuration, and integration.
 - [Referrals](referrals.md)
 - [Inquiry Forms](inquiry-forms.md)
 - [Inquiry Settings](inquiry-settings.md)
+- [Integrations](../integrations/index.md)
+- [Outbound Webhooks](../integrations/outbound-webhooks.md)
+- [Help Scout Integration](helpscout-integration.md)
 - [FAQ](faq.md)

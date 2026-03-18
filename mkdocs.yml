@@ -121,8 +121,10 @@ nav:
     - Quote Settings: quote-settings.md
   - Setup:
     - Setup: setup/index.md
+    - Integrations: integrations/index.md
+    - Outbound Webhooks: integrations/outbound-webhooks.md
     - Subscription: setup/subscription.md
     - Referrals: setup/referrals.md
     - FAQ: setup/faq.md
-    - Help Scout Integration: setup/helpscout-integration.md
+    - Help Scout Integration: setup/helpscout.md
     - Quick Start: setup/quick-start.md
