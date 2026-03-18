@@ -45,26 +45,47 @@ You need a URL that can "catch" the quote data when it's sent. The easiest way i
 
 ## Step 2: Configure in AirShop
 
-1. Log in to AirShop and go to [Settings → Integrations → Outbound Webhooks](https://www.airshop.work/settings/integrations/outbound-webhooks).
-2. Paste your webhook URL into the **Webhook URL** field.
-3. For **Secret** — click to generate one, or enter your own. Save it somewhere safe; you'll use it if you ever want to verify that requests really come from AirShop.
-4. Choose **Trigger mode**:
-   - **Manual** — Send only when you click "Send to Webhook" on a Won quote.
-   - **Auto** — Send automatically whenever a quote is marked as Accepted.
-5. Click **Save**.
+Log in to AirShop and go to [Settings → Integrations → Outbound Webhooks](https://airshop.work/settings/integrations/outbound-webhooks). The page walks you through four steps:
+
+### Step 1 — Start your Zap or Make scenario
+
+Paste your webhook URL into the **Webhook URL** field. This is the URL you copied from Zapier (Catch Hook) or Make (Custom webhook).
+
+### Step 2 — Enable and send a test
+
+1. Turn on **Enable webhook**.
+2. Click **SEND TEST** so Zapier or Make receives a sample payload. This lets you map fields in the next steps of your Zap or scenario.
+3. Finish building your Zap or Make scenario — add actions to create invoices, update spreadsheets, or whatever you need.
+
+### Step 3 — Name the button
+
+The button on accepted quotes can show custom text. Enter a label that matches your integration (e.g. **CREATE QUICKBOOKS INVOICE**, **CREATE XERO INVOICE**, **PUSH TO MAKE**). Use the suggestions or type your own.
+
+### Step 4 — Choose when to send
+
+- **Manual** — You review the quote first, then click the button to send it to your integration.
+- **Automatic** — The webhook fires immediately when a customer accepts; no manual step needed.
+
+### Advanced options
+
+**Signing secret** — Only needed if you build a custom endpoint that verifies request signatures. Zapier and Make don't use this; you can skip it. If you need it, expand **Advanced options** and use **Generate** or **Copy**.
+
+### Save
+
+When you change any setting, **Discard** and **Save** buttons appear. Click **Save** to apply your changes.
 
 ---
 
 ## Step 3: Use It
 
-- **Manual mode:** Open a quote that's marked as Won, then click **Send to Webhook** (or equivalent) to send the event.
+- **Manual mode:** Open a quote that's marked as Won (Accepted), then click the button (e.g. **CREATE QUICKBOOKS INVOICE**) to send the event.
 - **Auto mode:** Nothing to do — when a quote is marked as Accepted, AirShop sends the data automatically.
 
 ---
 
 ## Delivery Log
 
-AirShop logs each delivery (success or failure) in the settings area. Use this to see if a send failed or to confirm that events were received.
+AirShop logs each delivery (success or failure) for debugging. If a send fails, check the webhook URL and that Zapier or Make is listening.
 
 ---
 
@@ -90,7 +111,8 @@ This section is for developers or advanced users who need more control.
 
 - **Per-organization** — One webhook URL per organization.
 - **Quote acceptance events** — Fired when a quote is marked as accepted (Won).
-- **Trigger modes** — **Manual**: send only when you click "Send to Webhook". **Auto**: send automatically when a quote transitions to Accepted.
+- **Button label** — Customizable text on the manual-send button (e.g. CREATE QUICKBOOKS INVOICE). Default: PUSH TO INTEGRATIONS.
+- **Trigger modes** — **Manual**: send only when you click the button. **Auto**: send automatically when a quote transitions to Accepted.
 - **Secure** — Requests are signed with HMAC-SHA256 in the `X-Airshop-Signature` header.
 
 ### Signature Verification
@@ -103,7 +125,7 @@ If you're not using Zapier or Make, expose a POST endpoint that accepts JSON. Th
 
 ### Delivery Log
 
-All deliveries (success or failure) are logged in the settings area for debugging.
+All deliveries (success or failure) are logged for debugging.
 
 ---
 
