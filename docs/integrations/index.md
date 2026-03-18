@@ -11,7 +11,7 @@ Connect AirShop to your favorite tools for automation, support, and accounting.
 ## Available Integrations
 
 - **[Outbound Webhooks](outbound-webhooks.md)** — Send quote acceptance events to Zapier, Make, QuickBooks, Xero, FreshBooks, or any app that accepts webhooks.
-- **Help Scout** — View inquiries, create quotes, and manage customer conversations from the Help Scout sidebar.
+- **[Help Scout](../setup/helpscout.md)** — View inquiries, create quotes, and manage customer conversations from the Help Scout sidebar.
 
 ## Partner Programs
 
