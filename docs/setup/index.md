@@ -17,5 +17,5 @@ Getting started, configuration, and integration.
 - [Inquiry Settings](inquiry-settings.md)
 - [Integrations](../integrations/index.md)
 - [Outbound Webhooks](../integrations/outbound-webhooks.md)
-- [Help Scout Integration](helpscout-integration.md)
+- [Help Scout Integration](../integrations/index.md)
 - [FAQ](faq.md)
