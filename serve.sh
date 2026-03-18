@@ -1,9 +1,13 @@
 #!/bin/sh
-# Kill any existing mkdocs, rebuild, and serve with full watch (docs + overrides + theme)
-# Run from project root: ./serve.sh
+# Kill any existing mkdocs, free port 8000, rebuild, and serve with full watch (docs + overrides + theme)
+# Run from project root: ./serve.sh  or  make serve
 # NO_MKDOCS_2_WARNING=1 silences the MkDocs 2.0 incompatibility notice (we're pinned to 1.x)
 pkill -f "mkdocs serve" 2>/dev/null
-sleep 1
+# Free port 8000 (often taken by stray Python http.server or other tools)
+if PID=$(lsof -ti :8000 2>/dev/null); then
+  kill "$PID" 2>/dev/null
+  sleep 1
+fi
 cd "$(dirname "$0")"
 export NO_MKDOCS_2_WARNING=1
 

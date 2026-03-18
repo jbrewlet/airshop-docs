@@ -36,6 +36,8 @@ Import customer organizations (companies you do business with) with name, websit
 
 See [Bulk Import Organizations](bulk-import-organizations.md) for fields and format.
 
+For QuickBooks users, see [QuickBooks Import](quickbooks-import.md) for export steps and column mapping.
+
 ---
 
 ### Customers

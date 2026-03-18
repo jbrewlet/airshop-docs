@@ -96,6 +96,7 @@ nav:
     - Bulk Import Customers: imports/bulk-import-customers.md
     - Bulk Import Inventory: inventory/bulk-import.md
     - Bulk Import Organizations: imports/bulk-import-organizations.md
+    - QuickBooks Import: imports/quickbooks-import.md
     - Inventory Export: inventory/inventory-export.md
   - Inventory:
     - Inventory: inventory/index.md
