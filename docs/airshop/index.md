@@ -12,4 +12,5 @@ General features and tips.
 
 - [Glossary](../glossary.md)
 - [Keyboard Shortcuts](keyboard-shortcuts.md)
+- [Notes Editor](notes-editor.md)
 - [Can I just use quoting or inventory?](use-one-part.md)

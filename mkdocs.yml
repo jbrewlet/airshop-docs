@@ -89,6 +89,7 @@ nav:
     - Can I just use quoting or inventory?: airshop/use-one-part.md
     - Glossary: glossary.md
     - Keyboard Shortcuts: airshop/keyboard-shortcuts.md
+    - Notes Editor: airshop/notes-editor.md
   - Home: index.md
   # https://docs.airshop.work/imports
   - Imports & Exports:
