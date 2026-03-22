@@ -101,6 +101,8 @@ nav:
     - Inventory Export: inventory/inventory-export.md
   - Inventory:
     - Inventory: inventory/index.md
+    - Locations: inventory/locations.md
+    - Merging Locations: inventory/merging-locations.md
     - Cards & Bin Labels: inventory/cards-and-labels.md
     - QR Code Scanning: inventory/qr-code-scanning.md
     - URL Cleaning: inventory/url-cleaning.md

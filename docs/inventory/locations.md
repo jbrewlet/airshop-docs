@@ -36,6 +36,10 @@ Every inventory item can be assigned to a single location.
 - **Filtering by Location:** In the [Inventory Items](https://airshop.work/inventory/items) view, you can filter the list to show only items in a specific location.
 - **Viewing Items in a Location:** The Location Detail page shows a complete list of all products currently assigned to that storage area.
 
+## Merging Locations
+
+To combine two or more Locations into one (move all items into a single Location and remove the extras), see [Merging Locations](merging-locations.md).
+
 ## Deleting Locations
 
 AirShop uses "soft deletes" for locations to preserve data integrity.
