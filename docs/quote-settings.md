@@ -14,7 +14,7 @@ keywords: [logo, margin, tax, labor categories, currency, quote number format, c
 [Open Quote Settings](https://airshop.work/settings/quote-settings){ target="_blank" rel="noopener noreferrer" }
 
 ---
-AirShop lets you customize your quotes to match your brand and workflow. Add your logo, control what appears on each quote, and set default margin and tax. Organization-level defaults apply to new quotes unless you override them per quote using the [Quote Options panel](quotes/quote-options-panel.md).
+AirShop lets you customize your quotes to match your brand and workflow. Add your logo, control what appears on each quote, and set default margin, tax, and inventory markup defaults. Organization-level defaults apply to new quotes unless you override them per quote using the [Quote Options panel](quotes/quote-options-panel.md).
 
 ![Quote Settings page](assets/quote-settings-page.png){ .screenshot }
 
@@ -34,15 +34,29 @@ This is displayed publicly on quotes sent to customers.
 
 ## Financial Settings
 
-Organization-level defaults for currency, tax, and margin.
+Organization-level defaults for currency, tax, margin, and inventory markup behavior.
 
 - **Currency** — Choose your currency (e.g., US Dollar)
 - **Default Tax Rate** — Set default tax percentage
 - **Minimum Profit Target** — Minimum margin percentage
 - **Profit Target** — Default profit target percentage
+- **Default Item Markup** — Default markup percentage prefilled when creating a new inventory item
 - **Default Additional Margin** — Extra margin applied to new quotes
 - **Enable Tax Calculations** — Toggle tax on or off
 - **Enable Margin Calculations** — Toggle margin calculations on or off
+
+---
+
+## Default Item Markup
+
+Use **Default Item Markup** to set your organization's starting markup for newly created inventory items.
+
+- Prefills the **Markup %** field when adding an inventory item
+- Applies to new-item form resets (for example, **Add Another**)
+- Defaults to `0%` for new organizations until you change it
+- Affects inventory item pricing defaults, not quote-level margin rules
+
+Important: quote line pricing uses each item's stored selling price directly. Quote-level **Additional Margin** is a separate quote setting.
 
 ---
 
