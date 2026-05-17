@@ -109,7 +109,7 @@ Use the Preview panel to see changes before saving.
 
 Configure **automatic invoice emails** (with optional PDF) for payment milestones — subject line, numbering, net due days, and when to send. Full behavior and prerequisites (including **[Stripe Connect](https://stripe.com/connect){ target="_blank" rel="noopener noreferrer" }** for online payment links) are covered in **[Quotes & invoicing with Stripe Connect](setup/stripe-payments.md)**.
 
-**Location in app:** [Quote Settings → Invoicing](https://airshop.work/settings/quote-settings?scroll=invoicing-options){ target="_blank" rel="noopener noreferrer" } (`#invoicing-options`), or jump from the Stripe setup guide.
+**Location in app:** [Quote Settings → Invoicing](https://airshop.work/settings/quote-settings?scroll=invoicing-options){ target="_blank" rel="noopener noreferrer" }.
 
 ---
 
@@ -119,7 +119,7 @@ Organization **defaults for new quotes** — payment terms (no payment due at ac
 
 Quotes can override most of these in the **Quote Builder** payment panel at the bottom of the quote; see **[Quotes & invoicing with Stripe Connect](setup/stripe-payments.md)** for the full workflow, **Stripe Payments under Integrations**, and the **[Payments workspace](https://airshop.work/quotes/payments){ target="_blank" rel="noopener noreferrer" }**.
 
-**Location in app:** [Quote Settings → Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" } (`#payment-options`)
+**Location in app:** [Quote Settings → Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" }.
 
 ![Payment Options defaults](assets/quote-settings-payment-options.png){ .screenshot }
 

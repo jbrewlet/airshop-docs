@@ -26,7 +26,7 @@ Collect deposits and milestone payments **through your own Stripe account** usin
 
 ## 1. Connect Stripe (Stripe Connect)
 
-1. Open **[Settings → Integrations → Stripe Payments](https://airshop.work/settings/integrations/stripe){ target="_blank" rel="noopener noreferrer" }** (direct URL: `airshop.work/settings/integrations/stripe`).
+1. Open **[Settings → Integrations → Stripe Payments](https://airshop.work/settings/integrations/stripe){ target="_blank" rel="noopener noreferrer" }** — **Path:** `airshop.work/settings/integrations/stripe`.
 2. Click **Connect with Stripe** and complete Stripe’s authorization flow in the browser (you can use an existing Stripe account or create one).
 
 AirShop uses **Stripe Connect** with Stripe’s standard OAuth onboarding (`connect.stripe.com/oauth`). You do **not** paste secret keys into AirShop—only the linked Connect account ID is stored after you authorize. Payouts and card data stay in Stripe; day-to-day money movement is managed from the [Stripe Dashboard](https://dashboard.stripe.com){ target="_blank" rel="noopener noreferrer" }.
@@ -49,9 +49,9 @@ Some deployments keep separate test and live Connect accounts; AirShop picks the
 
 ## 2. Organization defaults — Quote Settings
 
-Open **[Quote Settings](https://airshop.work/settings/quote-settings){ target="_blank" rel="noopener noreferrer" }**, or jump straight to **[Invoicing](https://airshop.work/settings/quote-settings?scroll=invoicing-options){ target="_blank" rel="noopener noreferrer" }** or **[Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" }** (`#invoicing-options`, `#payment-options`).
+Open **[Quote Settings](https://airshop.work/settings/quote-settings){ target="_blank" rel="noopener noreferrer" }**, or jump straight to **[Invoicing](https://airshop.work/settings/quote-settings?scroll=invoicing-options){ target="_blank" rel="noopener noreferrer" }** or **[Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" }**.
 
-### Invoicing (`#invoicing-options`)
+### Invoicing
 
 Controls **automatic invoice emails** (PDF attachment optional) when milestones become due:
 
@@ -62,7 +62,7 @@ Controls **automatic invoice emails** (PDF attachment optional) when milestones 
 - **Invoice numbering** — format (`{seq}`, `{year}`, `{yy}`, `{month}`, `{prefix}`), padding, prefix, **next sequence** value.
 - **Default due dates** — net days for standard vs deposit invoices (`0` = due on receipt).
 
-### Payment Options (`#payment-options`)
+### Payment Options
 
 Defaults for **new quotes** (each quote can override in Quote Builder):
 
@@ -89,7 +89,7 @@ The page links back to Stripe setup if online payments need Connect. You can als
 
 ## 3. Per-quote payment settings (Quote Builder, bottom)
 
-In the Quote Builder, scroll to the **Payment** section (`#quote-payment-options` anchor in the UI). There you can:
+In the Quote Builder, scroll to the **Payment** section at the bottom of the page. There you can:
 
 - Choose the **payment terms** and deposit configuration for **this quote** (aligned with organization defaults unless you override).
 - View the **milestones** AirShop will invoice or track (deposit, balance, or custom milestone names depending on terms).
@@ -101,7 +101,7 @@ In the Quote Builder, scroll to the **Payment** section (`#quote-payment-options
 
 **Send Invoice** opens the milestone invoice workflow for the **next open** milestone once the quote is eligible (for example accepted or invoicing-ready statuses). You can **resend** from the Payments page drawer as well.
 
-**Settings** beside organization-level copy links to **[Quote Settings → Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" }** (`#payment-options`) for admins adjusting defaults.
+**Settings** beside organization-level copy links to **[Quote Settings → Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" }** for admins adjusting defaults.
 
 ![Quote Builder — payment options and schedule](../assets/quote-builder-payment-panel.png){ .screenshot }
 
