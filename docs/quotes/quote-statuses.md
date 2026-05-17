@@ -44,6 +44,7 @@ Depending on your workflow, you may also use additional labels. If your organiza
 ## Related
 
 - [Create a Quote](create-quote.md)
+- [Stripe Connect & quote payments](../setup/stripe-payments.md) — After a customer accepts, deposits and milestones may move through invoicing or **Payment pending**–style statuses depending on policy.
 - [Send and Share Quotes](send-and-share-quotes.md)
 - [Quote Follow-ups](../follow-ups.md)
 - [Quote View Tracking](view-tracking.md)

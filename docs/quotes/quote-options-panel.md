@@ -8,6 +8,8 @@ keywords: [quote options panel, override per quote, show company logo, rollup it
 
 Each quote has a **Settings** button in the upper right that opens the Quote Options panel. Use it to override [Quote Settings](../quote-settings.md) for that quote only—for example, when a specific quote needs different display options or styling.
 
+Payment terms, milestones, **Send Invoice**, and public quote payment visibility are configured separately in the **Payment** panel at the **bottom** of the Quote Builder, not inside this Quote Options drawer. See [Stripe Connect & quote payments](../setup/stripe-payments.md).
+
 ![Quote Options panel in Quote Builder](../assets/quote-options-panel.png){ .screenshot }
 
 **How to access:** In the Quote Builder, click the settings icon (stack of horizontal lines) in the upper right—to the right of "Saved X ago" and left of the chevron.

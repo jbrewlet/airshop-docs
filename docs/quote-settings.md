@@ -1,7 +1,7 @@
 ---
 title: AirShop Quote Settings
 description: Customize your quotes with your logo, styling, and preferences. Override org settings per quote.
-keywords: [logo, margin, tax, labor categories, currency, quote number format, company info, branding]
+keywords: [logo, margin, tax, labor categories, currency, quote number format, company info, branding, invoicing, Stripe, payments]
 ---
 
 # Quote Settings
@@ -105,10 +105,23 @@ Use the Preview panel to see changes before saving.
 
 ---
 
+## Invoicing
+
+Configure **automatic invoice emails** (with optional PDF) for payment milestones — subject line, numbering, net due days, and when to send. Full behavior and prerequisites (including **[Stripe Connect](https://stripe.com/connect){ target="_blank" rel="noopener noreferrer" }** for online payment links) are covered in **[Quotes & invoicing with Stripe Connect](setup/stripe-payments.md)**.
+
+**Location in app:** [Quote Settings → Invoicing](https://airshop.work/settings/quote-settings?scroll=invoicing-options){ target="_blank" rel="noopener noreferrer" } (`#invoicing-options`), or jump from the Stripe setup guide.
+
+---
+
 ## Payment Options
 
-!!! info "Coming Q1 2026"
-    Payment options will be available in Quotes in Q1 – 2026.
+Organization **defaults for new quotes** — payment terms (no payment due at acceptance, deposit + balance, full upfront, flexible), who pays Stripe card fees when applicable, deposit percentage or fixed deposit, partial/full payment allowances, PO requirement, and **offline payment instructions** when online payment is not used.
+
+Quotes can override most of these in the **Quote Builder** payment panel at the bottom of the quote; see **[Quotes & invoicing with Stripe Connect](setup/stripe-payments.md)** for the full workflow, **Stripe Payments under Integrations**, and the **[Payments workspace](https://airshop.work/quotes/payments){ target="_blank" rel="noopener noreferrer" }**.
+
+**Location in app:** [Quote Settings → Payment Options](https://airshop.work/settings/quote-settings?scroll=payment-options){ target="_blank" rel="noopener noreferrer" } (`#payment-options`)
+
+![Payment Options defaults](assets/quote-settings-payment-options.png){ .screenshot }
 
 ---
 

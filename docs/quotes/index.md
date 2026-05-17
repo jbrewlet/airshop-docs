@@ -1,7 +1,7 @@
 ---
 title: Quotes
 description: Create and manage quotes, inquiries, and forms in AirShop.
-keywords: [quotes section]
+keywords: [quotes section, Stripe, payments]
 ---
 
 # Quotes
@@ -20,3 +20,4 @@ Quotes, inquiries, and forms.
 - [Quote View Tracking](view-tracking.md)
 - [Quote Options Panel](quote-options-panel.md)
 - [Quote Settings](../quote-settings.md)
+- [Stripe Connect & quote payments](../setup/stripe-payments.md)

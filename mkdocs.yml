@@ -125,6 +125,7 @@ nav:
   - Setup:
     - Setup: setup/index.md
     - Integrations: integrations/index.md
+    - Stripe Connect & quote payments: setup/stripe-payments.md
     - Outbound Webhooks: integrations/outbound-webhooks.md
     - Subscription: setup/subscription.md
     - Referrals: setup/referrals.md

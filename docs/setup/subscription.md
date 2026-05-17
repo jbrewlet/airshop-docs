@@ -8,10 +8,10 @@ keywords: [subscription, plans, payment, trial, Stripe]
 
 A paid subscription is required for all AirShop organizations. Organization administrators manage plans and payment at [airshop.work/subscription](https://airshop.work/subscription).
 
-!!! note "Subscription vs. Billing"
-    This page covers your **subscription** to AirShop (app access). 
-    
-    **Billing**—invoicing your customers for quotes is a coming soon [airshop.work/billing](https://airshop.work/billing)
+!!! note "Subscription vs. customer payments"
+    This page is your **AirShop subscription** (paying for app access).
+
+    **Customer quote payments**—deposits, milestones, and invoice links on your own Stripe account—are configured separately. See **[Quotes & invoicing with Stripe Connect](stripe-payments.md)**.
 
 ---
 
@@ -125,5 +125,6 @@ flowchart TD
 
 ## Related
 
+- [Quotes & invoicing with Stripe Connect](stripe-payments.md) — Collecting deposits or milestones from **your** customers (separate from your AirShop subscription here).
 - [Setup FAQ](faq.md)
 - [Glossary](../glossary.md) — Subscription, Organization Administrator

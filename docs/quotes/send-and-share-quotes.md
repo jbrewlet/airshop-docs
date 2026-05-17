@@ -17,6 +17,7 @@ This guide covers practical ways to deliver quotes to customers and what to chec
 - Confirm the quote has the right customer and email address.
 - Review visibility options in the [Quote Options Panel](quote-options-panel.md), especially pricing and company info toggles.
 - Verify reply behavior in [Quote Settings](../quote-settings.md#quote-email-reply-to-settings).
+- If customers will **pay deposits or milestones online**, connect Stripe and set payment defaults per [Stripe Connect & quote payments](../setup/stripe-payments.md), then configure the bottom-of-builder **Payment** section before making public payment visible.
 
 ---
 
@@ -58,6 +59,7 @@ See [Quote Settings](../quote-settings.md#quote-email-reply-to-settings) for det
 
 ## Related
 
+- [Stripe Connect & quote payments](../setup/stripe-payments.md)
 - [Create a Quote](create-quote.md)
 - [Quote Options Panel](quote-options-panel.md)
 - [Quote Follow-ups](../follow-ups.md)

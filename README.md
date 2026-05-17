@@ -73,6 +73,12 @@ To refresh: copy from `airshop/public/` into `docs/assets/`.
 
 ---
 
+## Internal (maintainers only)
+
+Markdown in **`internal/`** is not part of MkDocs `docs/` and is **not** published to docs.airshop.work (e.g. screenshot capture lists for payment docs updates).
+
+---
+
 ## Brand
 
 - Primary: `#03366D` (AirShop Navy)

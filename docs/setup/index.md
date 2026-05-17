@@ -11,6 +11,7 @@ Getting started, configuration, and integration.
 ## Articles
 
 - [Quick Start](quick-start.md)
+- [Stripe Connect & quote payments](stripe-payments.md)
 - [Subscription](subscription.md)
 - [Referrals](referrals.md)
 - [Inquiry Forms](inquiry-forms.md)
