@@ -27,7 +27,7 @@ Try the following:
 - Re-send from AirShop and ask customer to whitelist your sender domain.
 - Share the quote link through another channel (SMS/chat) to keep momentum.
 
-If delivery keeps failing, contact support through [help.airshop.work](https://help.airshop.work).
+If delivery keeps failing, use the **Help** widget in the bottom-right corner of the AirShop app to contact support.
 
 ---
 

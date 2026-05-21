@@ -16,7 +16,7 @@ AirShop is a platform for managing quotes, orders, and inventory for manufacturi
 
 ### How do I get support?
 
-Contact support through the app or visit [help.airshop.work](https://help.airshop.work) for contact options.
+In the AirShop app, use the **Help** widget in the bottom-right corner to contact AirShop.
 
 ## Subscription
 
