@@ -44,8 +44,8 @@ Your team can:
 3. Fill in:
    - **App name:** e.g. "AirShop"
    - **Content URL:** `https://www.airshop.work/helpscout` (no trailing slash)
-   - **Content signature key:** Generate a random string (40 characters or less) and save it. You'll need to provide this to AirShop (see 4)
-   - **Side Panel URLs:** Same as Content URL, or leave as instructed
+   - **Content signature key:** Paste the Content signature key provided by AirShop.
+   - **Side Panel URLs:** `https://www.airshop.work/helpscout`
 4. Click **Save**
 5. **Install the app** and assign it to the mailboxes you use for AirShop
 
@@ -64,7 +64,17 @@ The Content signature key from your Help Scout Custom App must be configured in 
 
 ### 5) (Optional) Set up note sync
 
-To copy conversation notes from Help Scout into AirShop, follow the **Note sync** instructions on the [Help Scout settings page](https://www.airshop.work/settings/integrations/helpscout). You'll create a webhook in Help Scout and use the Callback URL and Secret from AirShop.
+To copy conversation notes from Help Scout into AirShop, follow the **Note sync** instructions on the [Help Scout settings page](https://www.airshop.work/settings/integrations/helpscout). This is separate from the Custom App setup. You'll create a Help Scout webhook and use these Webhooks fields:
+
+Use the values shown in AirShop:
+
+- **Callback URL:** `https://www.airshop.work/api/webhooks/helpscout`
+- **Secret Key:** Click **Generate** in AirShop, then paste the generated 40-character value into Help Scout Webhooks → **Secret Key**.
+- **Events:** Select **Conversation Note Added**. For status sync, also select **Conversation Status Changed**.
+- **Inboxes:** Select the same inbox used for the Mailbox ID above.
+
+!!! warning "Two different Help Scout secrets"
+    Help Scout has two separate secret fields. Custom App **Content signature key** is used for the sidebar app. Webhooks **Secret Key** is used only for note/status sync. Both must be 40 characters or less, but they are not the same field.
 
 ### 6) Save in AirShop
 
@@ -91,6 +101,13 @@ Click **Save** on the [Help Scout settings page](https://www.airshop.work/settin
 **"Invalid or missing Help Scout signature"**
 
 - Your Content signature key must be configured in AirShop. Contact support if you've provided it and the error persists.
+- Help Scout requires the Content signature key to be 40 characters or less.
+
+**"Unauthorized" when creating an inquiry**
+
+- Reopen the app from the Help Scout conversation sidebar and try again.
+- Confirm the Help Scout mailbox is linked in AirShop at [Settings → Integrations → Help Scout](https://www.airshop.work/settings/integrations/helpscout).
+- Confirm the **Content URL** is exactly `https://www.airshop.work/helpscout` and the mailbox assigned to the Custom App matches the Mailbox ID saved in AirShop.
 
 **The app shows "context timed out" or a loading error**
 
