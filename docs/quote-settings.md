@@ -148,13 +148,22 @@ Configure where replies to quote emails are sent.
 
 ## Labor Categories
 
-Define the labor types available when adding labor line items to quotes. These categories appear in the Labor Category dropdown when you add a labor item in the Quote Builder.
+Define the default labor buckets, costs, and prices used when adding labor line items to quotes. These categories are available as labor items in the Quote Builder, prefilled with the cost and price you set here.
 
-- **Add Labor Category** — Click to add a new category
-- **Labor Category 1, 2, 3…** — Enter a name for each category (e.g., CNC Labor, Shop Labor, Design Labor, Installation)
-- **Remove** — Remove a category you no longer need
+Each category has three fields:
 
-Default categories are CNC Labor, Shop Labor, and Design Labor. Add or edit categories to match how your shop tracks labor on quotes.
+- **Labor Category 1, 2, 3…** — The category name (e.g., CNC Labor, Shop Labor, Design Labor, Installation)
+- **Default cost / hr** — What this labor costs your shop per hour (used for margin calculations)
+- **Default price / hr** — What you charge the customer per hour
+
+Use **Add Labor Category** to add a new row and **Remove** to delete one you no longer need. New organizations start with CNC Labor, Shop Labor, and Design Labor; edit these to match how your shop tracks labor on quotes.
+
+!!! note "Changes don't affect existing quotes"
+    Updating a labor category's name, cost, or price changes the defaults used for **new** quote line items only. Quotes that already include labor items keep the cost and price they were created with.
+
+### Change log
+
+A paginated change log appears below the labor categories. It records who changed a labor category, what changed (name, cost, or price), and when — so you can track edits to your labor rates over time.
 
 ---
 
