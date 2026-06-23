@@ -246,7 +246,7 @@ See [Bulk Import](inventory/bulk-import.md). [Open Items](https://airshop.work/i
 
 A supplier or vendor you buy from. Link sources to items for quick reordering.
 
-See [Bulk Import](inventory/bulk-import.md). [Open Sources](https://airshop.work/sources)
+See [Sources](inventory/sources.md), [Bulk Import](inventory/bulk-import.md). [Open Sources](https://airshop.work/sources)
 
 ---
 

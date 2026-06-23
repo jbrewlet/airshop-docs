@@ -20,21 +20,24 @@ When you paste a URL into the Purchase URL field on an inventory item, AirShop c
 
 ### Vendor-Specific Cleaning
 
+!!! note "Why these examples look short"
+    For readability, the examples below leave off the `https://` and `www.` prefixes. AirShop still saves the full link with `https://`—and keeps `www.` whenever the vendor needs it.
+
 | Vendor | Before | After |
 |--------|--------|-------|
-| Amazon / Amazon Business | `https://www.amazon.com/Product-Name/dp/B0FCHHZ76X/ref=pd_ci_mcx...?pd_rd_w=jBhca&content-id=...` | `https://amazon.com/dp/B0FCHHZ76X` |
-| Digi-Key | `https://www.digikey.com/en/products/detail/product-name/PART123/12345?s=N4Ig...` | `https://digikey.com/en/products/detail/product-name/PART123/12345` |
-| eBay | `https://www.ebay.com/itm/123456789012?_trkparms=...` | `https://ebay.com/itm/123456789012` |
-| Fastenal | `https://www.fastenal.com/product/details/12345678?src=...` | `https://fastenal.com/product/details/12345678` |
-| Global Industrial | `https://www.globalindustrial.com/p/product-name-123456?utm_source=...` | `https://globalindustrial.com/p/product-name-123456` |
-| Grainger | `https://www.grainger.com/product/NAME-5K459?tracking=...` | `https://grainger.com/product/NAME-5K459` |
-| Home Depot | `https://www.homedepot.com/p/Name/123456789?cm_mmc=...` | `https://homedepot.com/p/Name/123456789` |
-| Lowe's | `https://www.lowes.com/pd/Name/1234567?cm_mmc=...` | `https://lowes.com/pd/Name/1234567` |
-| McMaster-Carr | `https://www.mcmaster.com/92196A111/?some=param` | `https://www.mcmaster.com/92196A111/` |
-| MSC Industrial | `https://www.mscdirect.com/product/details/12345678?rItem=...` | `https://mscdirect.com/product/details/12345678` |
-| Portland CNC | `https://shop.portlandcnc.com/products/item?variant=123&utm_source=...` | `https://shop.portlandcnc.com/products/item` |
-| Uline | `https://www.uline.com/BL/S-12345?pricode=WA123&utm_source=...` | `https://uline.com/BL/S-12345` |
-| Zoro | `https://www.zoro.com/product-name-here/i/G5124366/?variantSelection=...` | `https://zoro.com/i/G5124366/` |
+| Amazon / Amazon Business | `amazon.com/Product-Name/dp/B0FCHHZ76X/ref=pd_ci_mcx...?pd_rd_w=jBhca&content-id=...` | `amazon.com/dp/B0FCHHZ76X` |
+| Digi-Key | `digikey.com/en/products/detail/product-name/PART123/12345?s=N4Ig...` | `digikey.com/en/products/detail/product-name/PART123/12345` |
+| eBay | `ebay.com/itm/123456789012?_trkparms=...` | `ebay.com/itm/123456789012` |
+| Fastenal | `fastenal.com/product/details/12345678?src=...` | `fastenal.com/product/details/12345678` |
+| Global Industrial | `globalindustrial.com/p/product-name-123456?utm_source=...` | `globalindustrial.com/p/product-name-123456` |
+| Grainger | `grainger.com/product/NAME-5K459?tracking=...` | `grainger.com/product/NAME-5K459` |
+| Home Depot | `homedepot.com/p/Name/123456789?cm_mmc=...` | `homedepot.com/p/Name/123456789` |
+| Lowe's | `lowes.com/pd/Name/1234567?cm_mmc=...` | `lowes.com/pd/Name/1234567` |
+| McMaster-Carr | `mcmaster.com/92196A111/?some=param` | `mcmaster.com/92196A111/` |
+| MSC Industrial | `mscdirect.com/product/details/12345678?rItem=...` | `mscdirect.com/product/details/12345678` |
+| PDX CNC | `pdxcnc.com/products/item?variant=123&utm_source=...` | `pdxcnc.com/products/item` |
+| Uline | `uline.com/BL/S-12345?pricode=WA123&utm_source=...` | `uline.com/BL/S-12345` |
+| Zoro | `zoro.com/product-name-here/i/G5124366/?variantSelection=...` | `zoro.com/i/G5124366/` |
 
 ### Generic Tracking Parameters Removed
 
