@@ -101,6 +101,7 @@ nav:
     - Inventory Export: inventory/inventory-export.md
   - Inventory:
     - Inventory: inventory/index.md
+    - Reorder Queue & Notifications: inventory/reorder-queue.md
     - Sources: inventory/sources.md
     - Locations: inventory/locations.md
     - Merging Locations: inventory/merging-locations.md

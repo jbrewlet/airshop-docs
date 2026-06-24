@@ -17,5 +17,6 @@ Inventory management, export, and QR scanning.
 - [Merging Locations](merging-locations.md)
 - [Location Tags](location-tags.md)
 - [QR Code Scanning](qr-code-scanning.md)
+- [Reorder Queue & Notifications](reorder-queue.md)
 - [Sources](sources.md)
 - [URL Cleaning](url-cleaning.md)
