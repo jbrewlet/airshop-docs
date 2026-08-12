@@ -109,6 +109,8 @@ nav:
     - QR Code Scanning: inventory/qr-code-scanning.md
     - URL Cleaning: inventory/url-cleaning.md
     - Inventory Export: inventory/inventory-export.md
+  - Operations:
+    - Issues: operations/issues.md
   - Inquiries:
     - Inquiry Forms: setup/inquiry-forms.md
     - Inquiry Settings: setup/inquiry-settings.md
