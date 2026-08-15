@@ -12,7 +12,7 @@ Connect AirShop to your favorite tools for automation, support, and accounting.
 
 - **[Stripe Connect & quote payments](../setup/stripe-payments.md)** — Connect Stripe to collect deposits and milestones on quotes, invoice customers, and use the Payments workspace (`/quotes/payments`). Org admins link accounts at **[Stripe Payments](https://airshop.work/settings/integrations/stripe){ target="_blank" rel="noopener noreferrer" }**.
 - **[Outbound Webhooks](outbound-webhooks.md)** — Send quote acceptance events to Zapier, Make, QuickBooks, Xero, FreshBooks, or any app that accepts webhooks.
-- **[Help Scout](../setup/helpscout.md)** — View inquiries, create quotes, and manage customer conversations from the Help Scout sidebar.
+- **[Help Scout](../setup/helpscout.md)** — View inquiries, create quotes, and manage customer conversations from the Help Scout sidebar. Includes [customer upload links](../setup/customer-uploads.md) you copy into replies.
 - **[Shopboard](../setup/shopboard.md)**: Shop floor displays paired to your AirShop account. Manage devices at **[Shopboard](https://airshop.work/settings/integrations/shopboard){ target="_blank" rel="noopener noreferrer" }**.
 
 ## Partner Programs

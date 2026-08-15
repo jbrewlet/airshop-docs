@@ -23,12 +23,14 @@ Your team can:
 - **View inquiries and quotes** for the customer in the current conversation
 - **Create new inquiries** in AirShop without leaving Help Scout
 - **Edit notes and status** on inquiries directly from the sidebar
+- **Send customer upload links** — copy a URL (and optional QR) into the reply so customers can send photos, video, CAD, and documents. See [Customer upload links](customer-uploads.md).
 - **Open inquiries in AirShop** with one click
 
 ## Prerequisites
 
 - An active AirShop account
 - A Help Scout account with admin access
+- A Help Scout **Mailbox API key** (Profile → Authentication → API Keys) if you want upload notes posted in the conversation thread
 
 ## Setup
 
@@ -86,6 +88,20 @@ Click **Save** on the [Help Scout settings page](https://www.airshop.work/settin
 2. The AirShop app should appear in the right sidebar
 3. If you see customer inquiries or quotes, the integration is working
 4. Try creating a new inquiry from the sidebar
+5. Optional: generate a customer upload link, click **Link** or **Link & QR**, paste into the reply
+
+## Customer upload links
+
+From the AirShop sidebar on a conversation:
+
+1. Associate with **Ticket (this one)**, a quote, or an inventory item.
+2. Click **Generate link**.
+3. Click **Link** (message + URL) or **Link & QR** (adds a scannable QR).
+4. Paste into the Help Scout reply and send.
+
+The conversation reuses that URL until it expires or you reset it. Uploads appear as thumbs in the sidebar (photos preview; other files show the extension, e.g. PDF). Click a thumb to open it in AirShop. AirShop can also post an internal thread note when a file arrives — that needs your Help Scout API key saved in AirShop.
+
+Full walkthrough: [Customer upload links](customer-uploads.md).
 
 ## Troubleshooting
 
@@ -113,3 +129,9 @@ Click **Save** on the [Help Scout settings page](https://www.airshop.work/settin
 
 - Ensure your Custom App's Content URL is exactly `https://www.airshop.work/helpscout` (with `www`, no trailing slash).
 - Contact AirShop support if it still fails.
+
+**Upload thumbs show, but no note appears in the conversation**
+
+- Save a Help Scout Mailbox API key in AirShop (Help Scout → Profile → Authentication → API Keys).
+- “Enable note sync” copies Help Scout notes *into* AirShop. It does not create upload notes in the thread.
+- See [Customer upload links](customer-uploads.md).

@@ -19,5 +19,6 @@ Getting started, configuration, and integration.
 - [Integrations](../integrations/index.md)
 - [Outbound Webhooks](../integrations/outbound-webhooks.md)
 - [Help Scout Integration](helpscout.md)
+- [Customer upload links](customer-uploads.md)
 - [Shopboard setup](shopboard.md)
 - [FAQ](faq.md)

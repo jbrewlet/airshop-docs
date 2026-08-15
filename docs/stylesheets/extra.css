@@ -483,11 +483,20 @@ body:has(.mdx-hero) .md-content {
 }
 
 /* Screenshots - constrained width, centered, preserves flow */
-.md-typeset img.screenshot {
+.md-typeset img.screenshot,
+.md-typeset video.screenshot {
   display: block;
   max-width: min(560px, 100%);
   width: auto;
   height: auto;
   margin: 1rem auto 1.5rem;
   border-radius: 0.25rem;
+}
+
+.md-typeset video.screenshot {
+  pointer-events: none;
+}
+
+.md-typeset video.screenshot::-webkit-media-controls {
+  display: none;
 }
