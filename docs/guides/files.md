@@ -6,7 +6,7 @@ keywords: [files, uploads, attachments, customer files, cad, inquiry files]
 
 # Files
 
-The **Files** page lists every file your organization has received — customer upload links, inquiry form attachments, and staff uploads on inquiries — in one searchable grid.
+The **Files** page lists every file your organization has received (customer upload links, inquiry form attachments, and staff uploads on inquiries) in one searchable grid.
 
 [Open Files](https://www.airshop.work/files){ target="_blank" rel="noopener noreferrer" }
 
@@ -32,16 +32,16 @@ The drawer is your quick look at one file without leaving the grid.
 
 **Actions**
 
-- **View** — open the full-screen viewer (images, PDF, and 3D models)
-- **Download** — save a copy
-- **Open in Fusion** — launch STEP, IGES, or STL in Autodesk Fusion (see [Open in Fusion](../open-fusion.md))
+- **View**: open the full-screen viewer (images, PDF, and 3D models)
+- **Download**: save a copy
+- **Open in Fusion**: launch STEP, IGES, or STL in Autodesk Fusion (see [Open in Fusion](../open-fusion.md))
 
 **Details**
 
-- **Source** — how the file arrived (customer upload link, inquiry form, staff upload on an inquiry)
-- **Linked to** — links to the Help Scout ticket, inquiry, quote, or item
-- **Customer** — organization and contact when known
-- **File** — upload date and size
+- **Source**: how the file arrived (customer upload link, inquiry form, staff upload on an inquiry)
+- **Linked to**: links to the Help Scout ticket, inquiry, quote, or item
+- **Customer**: organization and contact when known
+- **File**: upload date and size
 
 STEP and STL files show an isometric preview thumbnail when one is available.
 
@@ -49,9 +49,9 @@ STEP and STL files show an isometric preview thumbnail when one is available.
 
 Files on this page include:
 
-- **Customer upload links** — files sent through `/u/…` links from Help Scout or elsewhere. See [Customer upload links](../setup/customer-uploads.md).
-- **Inquiry form attachments** — files customers attach when submitting an inquiry form.
-- **Staff inquiry uploads** — files your team adds on an inquiry's Attachments section.
+- **Customer upload links**: files sent through `/u/...` links from Help Scout or elsewhere. See [Customer upload links](../setup/customer-uploads.md).
+- **Inquiry form attachments**: files customers attach when submitting an inquiry form.
+- **Staff inquiry uploads**: files your team adds on an inquiry's Attachments section.
 
 All of these also appear on the linked inquiry under **Attachments** when an inquiry exists.
 

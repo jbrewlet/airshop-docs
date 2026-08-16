@@ -99,7 +99,7 @@ From the AirShop sidebar on a conversation:
 3. Click **Link** (message + URL) or **Link & QR** (adds a scannable QR).
 4. Paste into the Help Scout reply and send.
 
-The conversation reuses that URL until it expires or you reset it. Uploads appear as thumbs in the sidebar (photos preview; other files show the extension, e.g. PDF). Click a thumb to open the file in AirShop at [Files](https://www.airshop.work/files). AirShop can also post an internal thread note when a file arrives — that needs your Help Scout API key saved in AirShop.
+The conversation reuses that URL until it expires or you reset it. Uploads appear as thumbs in the sidebar (photos preview; other files show the extension, e.g. PDF). Click a thumb to open the file in AirShop at [Files](https://www.airshop.work/files). AirShop can also post an internal thread note when a file arrives. That needs your Help Scout API key saved in AirShop.
 
 Full walkthrough: [Customer upload links](customer-uploads.md). Browse all org files: [Files](../guides/files.md).
 

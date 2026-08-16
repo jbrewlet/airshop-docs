@@ -24,7 +24,7 @@ There are three ways to open a file in Fusion from AirShop:
 
 See the [Files guide](guides/files.md) for the full grid and drawer workflow.
 
-### From an inquiry — 3D viewer
+### From an inquiry: 3D viewer
 
 When a compatible 3D model is displayed in AirShop's integrated 3D viewer:
 
@@ -33,7 +33,7 @@ When a compatible 3D model is displayed in AirShop's integrated 3D viewer:
 
 ![AirShop inquiry with 3D viewer and Open in Fusion button, plus attachment context menu](assets/open-fusion-1.png){ .screenshot }
 
-### From an inquiry — attachments list
+### From an inquiry: attachments list
 
 1. Open the inquiry.
 2. In the **Attachments** section, find the 3D model file you want.
@@ -79,6 +79,6 @@ If Fusion does not open when you click **Open in Fusion**, AirShop shows a dialo
 
 ## Related
 
-- [Files](guides/files.md) — Browse all uploads and open CAD from the Files drawer
+- [Files](guides/files.md): browse all uploads and open CAD from the Files drawer
 - [Inquiry Forms](setup/inquiry-forms.md) — How inquiries and attachments are collected
 - [Create a Quote](quotes/create-quote.md) — Turn inquiries into quotes
