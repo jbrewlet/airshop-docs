@@ -12,7 +12,7 @@ The **Files** page lists every file your organization has received (customer upl
 
 Use the **Inquiries → Files** tab (same bar as Inquiries, Customers, and Organizations).
 
-![Files grid with detail drawer showing a STEP preview, linked ticket and inquiry, and Open in Fusion](assets/files-drawer.png){ .screenshot }
+![Files grid with detail drawer showing a STEP preview, linked ticket and inquiry, and Open in Fusion](../assets/files-drawer.png){ .screenshot }
 
 ## What's in the grid
 
