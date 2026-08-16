@@ -14,9 +14,17 @@ You can open 3D model files from inquiry attachments directly in **Autodesk Fusi
 
 ## How to Open in Fusion
 
-There are two ways to open a file in Fusion from an inquiry:
+There are three ways to open a file in Fusion from AirShop:
 
-### Method 1: From the 3D Viewer
+### From the Files page
+
+1. Open [Inquiries → Files](https://www.airshop.work/files).
+2. Click a compatible 3D file (STEP, IGES, or STL).
+3. In the detail drawer, click **Open in Fusion**.
+
+See the [Files guide](guides/files.md) for the full grid and drawer workflow.
+
+### From an inquiry — 3D viewer
 
 When a compatible 3D model is displayed in AirShop's integrated 3D viewer:
 
@@ -25,7 +33,7 @@ When a compatible 3D model is displayed in AirShop's integrated 3D viewer:
 
 ![AirShop inquiry with 3D viewer and Open in Fusion button, plus attachment context menu](assets/open-fusion-1.png){ .screenshot }
 
-### Method 2: From the Attachments List
+### From an inquiry — attachments list
 
 1. Open the inquiry.
 2. In the **Attachments** section, find the 3D model file you want.
@@ -71,5 +79,6 @@ If Fusion does not open when you click **Open in Fusion**, AirShop shows a dialo
 
 ## Related
 
+- [Files](guides/files.md) — Browse all uploads and open CAD from the Files drawer
 - [Inquiry Forms](setup/inquiry-forms.md) — How inquiries and attachments are collected
 - [Create a Quote](quotes/create-quote.md) — Turn inquiries into quotes

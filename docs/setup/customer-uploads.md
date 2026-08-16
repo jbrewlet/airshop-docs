@@ -73,7 +73,13 @@ When a file finishes, AirShop posts an **internal note** (not a customer reply):
 
 **AirShop**
 
-Files also show on the linked inquiry under Attachments.
+Files also show on the linked inquiry under **Attachments**.
+
+**Files page**
+
+Open [Inquiries → Files](https://www.airshop.work/files) to browse every customer upload, inquiry form attachment, and staff upload in one grid. Click a row to open the detail drawer: preview, download, **Open in Fusion**, and links to the ticket or inquiry. Full walkthrough: [Files](../guides/files.md).
+
+Help Scout internal notes and sidebar thumbs open `/files/{fileId}`. Legacy `/uploads/` links redirect there too.
 
 ## Settings
 
@@ -96,6 +102,6 @@ Save a Help Scout Mailbox API key (Profile → Authentication → API Keys) in A
 
 **Can't click a thumb**
 
-Click opens the AirShop staff viewer in a new tab. You must be signed in to AirShop.
+Click opens the file on the [Files](https://www.airshop.work/files) page (or the linked inquiry when one exists). You must be signed in to AirShop.
 
 See also [Help Scout Integration](helpscout.md).

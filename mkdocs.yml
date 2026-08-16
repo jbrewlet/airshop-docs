@@ -114,6 +114,7 @@ nav:
   - Inquiries:
     - Inquiry Forms: setup/inquiry-forms.md
     - Inquiry Settings: setup/inquiry-settings.md
+    - Files: guides/files.md
     - Open in Fusion: open-fusion.md
   - Quotes:
     - Quotes: quotes/index.md
