@@ -1,7 +1,7 @@
 ---
 title: Subscription
 description: Manage your AirShop subscription, plans, and payment. Required for all organizations.
-keywords: [subscription, plans, payment, trial, Stripe]
+keywords: [subscription, plans, payment, trial, Stripe, Solo, Starter, Team, Pro]
 ---
 
 # Subscription
@@ -11,21 +11,41 @@ A paid subscription is required for all AirShop organizations. Organization admi
 !!! note "Subscription vs. customer payments"
     This page is your **AirShop subscription** (paying for app access).
 
-    **Customer quote payments**—deposits, milestones, and invoice links on your own Stripe account—are configured separately. See **[Quotes & invoicing with Stripe Connect](stripe-payments.md)**.
+    **Customer quote payments** (deposits, milestones, and invoice links on your own Stripe account) are configured separately. See **[Quotes & invoicing with Stripe Connect](stripe-payments.md)**.
 
 ---
 
 ## Plans & Pricing
 
-AirShop offers three subscription tiers:
+AirShop offers four self-serve subscription tiers. Current prices appear on the [Subscription page](https://airshop.work/subscription).
 
-| Plan | User Limit | Best For |
-|------|------------|----------|
-| **Starter** | Up to 2 users | Freelancers and small shops |
-| **Team** | Up to 10 users | Growing businesses |
-| **Pro** | More than 10 users | Larger teams, unique needs |
+| Plan | Price | Billing | Users | Best for |
+|------|-------|---------|-------|----------|
+| **Solo** | $35/mo | Monthly only | 1 | Solo operators and side projects |
+| **Starter** | $99/mo | Monthly or annual | Up to 2 | Freelancers and small shops |
+| **Team** | $299/mo | Monthly or annual | Up to 10 | Growing businesses |
+| **Pro** | Custom | Contact us | Unlimited | Larger teams with unique needs |
 
-Current plans and pricing are shown on the [Subscription page](https://airshop.work/subscription). You can choose monthly or annual billing for a discount.
+Starter and Team include a discount when you pay annually. Solo is monthly only.
+
+### What's included
+
+**Solo**
+
+- 1 user
+- 10 quotes per month
+- 10 orders per month
+- Core AirShop features within those limits
+
+Solo does not include **Shopboard Sync** (live inquiry and quote updates on a shop floor display). Solo organizations enrolled in the Shopboard private beta may use Shopboard in **personal mode** only. See [Shopboard](shopboard.md).
+
+**Starter, Team, and Pro**
+
+- All core features (quotes, inventory, inquiries, customers, payments, and integrations)
+- **Shopboard Sync** on Starter and above: connect a Raspberry Pi shop floor display for live AirShop activity (private beta; org enrollment required)
+- Support level varies by plan (email and chat on Starter, priority on Team, dedicated on Pro)
+
+Pro pricing is custom. Use **Contact Us** on the Subscription page or [book a demo](https://cal.com/airshop/demo).
 
 Each team member must have their own user account. Sharing a single login across multiple people is not permitted. We monitor for misuse.
 
@@ -34,8 +54,8 @@ Each team member must have their own user account. Sharing a single login across
 ## How to Subscribe
 
 1. Go to [Subscription](https://airshop.work/subscription) (or **Settings** → **Subscription**, or the Subscription link in the left nav).
-2. Choose **monthly** or **annual** billing.
-3. Select a plan (Starter, Team, or Pro).
+2. Choose **monthly** or **annual** billing (Solo is monthly only).
+3. Select a plan (Solo, Starter, Team, or Pro).
 4. Click **Subscribe** to open Stripe Checkout.
 5. Enter your payment details and complete the checkout.
 
@@ -45,13 +65,15 @@ After payment succeeds, your organization is active and you can continue using A
 
 ## Managing Your Subscription
 
-![Subscription page with an active plan showing current plan, upgrade options, and invoice history](../assets/subscription-active.png){ .screenshot }
+![Subscription page with an active plan: current plan summary, plan cards, and invoice history](../assets/subscription-active.png){ .screenshot }
+
+_Screenshot shows a Starter subscription example. The live Subscription page lists Solo, Starter, Team, and Pro; plan cards and features may differ from this capture._
 
 Use **Manage subscription** on the [Subscription page](https://airshop.work/subscription) to open the Stripe Customer Portal. There you can:
 
 - Update your payment method
 - Change your plan (upgrade or downgrade)
-- Switch between monthly and annual billing
+- Switch between monthly and annual billing (Starter and Team only)
 - Cancel your subscription
 - View and download invoices
 
@@ -125,6 +147,7 @@ flowchart TD
 
 ## Related
 
+- [Shopboard](shopboard.md) — Shop floor displays, Shopboard Sync, and plan requirements
 - [Quotes & invoicing with Stripe Connect](stripe-payments.md) — Collecting deposits or milestones from **your** customers (separate from your AirShop subscription here).
 - [Setup FAQ](faq.md)
 - [Glossary](../glossary.md) — Subscription, Organization Administrator

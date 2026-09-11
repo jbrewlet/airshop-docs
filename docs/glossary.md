@@ -20,9 +20,17 @@ See [Keyboard Shortcuts](airshop/keyboard-shortcuts.md).
 
 ## Subscription
 
-Your organization's plan and payment for AirShop access. Organization administrators manage subscription, plans, and payment at [airshop.work/subscription](https://airshop.work/subscription).
+Your organization's plan and payment for AirShop access. Self-serve tiers are **Solo**, **Starter**, **Team**, and **Pro**. Organization administrators manage subscription, plans, and payment at [airshop.work/subscription](https://airshop.work/subscription).
 
 See [Subscription](setup/subscription.md). [Open Subscription](https://airshop.work/subscription)
+
+---
+
+## Shopboard Sync
+
+Live connection between AirShop and a Shopboard Pi display: inquiry alerts, quote wins, and related shop signals on the floor. Included on Starter, Team, and Pro. Not included on Solo (personal Shopboard mode only, private beta).
+
+See [Shopboard](setup/shopboard.md), [Subscription](setup/subscription.md).
 
 ---
 

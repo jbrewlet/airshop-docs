@@ -22,7 +22,11 @@ In the AirShop app, use the **Help** widget in the bottom-right corner to contac
 
 ### How do I subscribe or change my plan?
 
-Go to [Subscription](https://airshop.work/subscription) to subscribe or change your plan. Choose monthly or annual billing, select a plan, and complete checkout. To change an existing subscription (upgrade, downgrade, or cancel), use **Manage subscription** on the Subscription page. See [Subscription](subscription.md) for details.
+Go to [Subscription](https://airshop.work/subscription) to subscribe or change your plan. Choose monthly or annual billing (Solo is monthly only), select a plan, and complete checkout. To change an existing subscription (upgrade, downgrade, or cancel), use **Manage subscription** on the Subscription page. See [Subscription](subscription.md) for plan details and pricing.
+
+### Which plan includes Shopboard Sync?
+
+**Shopboard Sync** (live AirShop activity on your shop floor display) is included on **Starter**, **Team**, and **Pro**. Solo does not include Shopboard Sync. Shopboard is in private beta; see [Shopboard](shopboard.md).
 
 ### Who can manage subscription?
 

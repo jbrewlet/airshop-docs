@@ -1,14 +1,29 @@
 ---
 title: Shopboard
-description: Shopboard is a live shop-floor display powered by a Raspberry Pi. Overview, requirements, and how to get started.
-keywords: [shopboard, raspberry pi, shop display, airshop, shop floor]
+description: Shopboard is a live shop-floor display powered by a Raspberry Pi. Overview, requirements, plan tiers, and how to get started.
+keywords: [shopboard, raspberry pi, shop display, airshop, shop floor, Shopboard Sync]
 ---
 
 # Shopboard
 
 Shopboard is a shop floor display powered by a Raspberry Pi and an HDMI monitor. It shows high-contrast alerts, calendar events, and shop signals your team can read while moving. See the [Shopboard overview](https://airshopapp.com/shopboard/){ target="_blank" rel="noopener noreferrer" } for examples and pricing.
 
-Post live alerts and messages from phones on the floor, keep pickups and deadlines visible from Google, Apple, or Outlook calendars, and show updates from Shopify or Home Assistant. If AirShop already runs your quotes and inquiries, a paid plan can also put that activity on the display.
+Post live alerts and messages from phones on the floor, keep pickups and deadlines visible from Google, Apple, or Outlook calendars, and show updates from Shopify or Home Assistant. On **Starter**, **Team**, and **Pro** plans, **Shopboard Sync** also puts live inquiry and quote activity from AirShop on the display.
+
+## Plans and Shopboard Sync
+
+Shopboard is in **private beta**. AirShop enables your organization after you request access from the [Shopboard overview](https://airshopapp.com/shopboard/){ target="_blank" rel="noopener noreferrer" }.
+
+| | Personal mode | Shopboard Sync |
+|---|---------------|----------------|
+| **Available on** | Solo (beta enrollment) and hobby use | Starter, Team, and Pro |
+| **Live AirShop events** | No | Yes (inquiry alerts, quote wins, and related shop signals) |
+| **Work / team use** | No | Yes |
+| **Shopify and Open API** | No | Yes |
+
+**Shopboard Sync** connects your Pi display to live inquiry and quote activity from AirShop. It is included on **Starter**, **Team**, and **Pro** subscriptions.
+
+**Solo** does not include Shopboard Sync. Solo organizations enrolled in the Shopboard beta may run Shopboard in **personal mode** (local alerts, calendars, and Home Assistant on your network). Live AirShop event sync requires Starter or above. See [Subscription](subscription.md) for plan details.
 
 ## What you need
 
@@ -33,3 +48,7 @@ Day-to-day admin and posting also use `shopboard.local:3000` on your shop Wi‑F
 ## Full guide
 
 The detailed install guide, download, and parts list are inside AirShop: **[Settings → Integrations → Shopboard](https://airshop.work/settings/integrations/shopboard){ target="_blank" rel="noopener noreferrer" }**.
+
+## Related
+
+- [Subscription](subscription.md) — Plans, pricing, and Shopboard Sync eligibility
