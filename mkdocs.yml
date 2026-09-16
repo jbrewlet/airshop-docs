@@ -106,6 +106,7 @@ nav:
     - Locations: inventory/locations.md
     - Merging Locations: inventory/merging-locations.md
     - Cards & Bin Labels: inventory/cards-and-labels.md
+    - CNC Tool Tags: inventory/tool-tags.md
     - QR Code Scanning: inventory/qr-code-scanning.md
     - URL Cleaning: inventory/url-cleaning.md
     - Inventory Export: inventory/inventory-export.md
