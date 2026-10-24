@@ -493,6 +493,11 @@ body:has(.mdx-hero) .md-content {
   border-radius: 0.25rem;
 }
 
+.md-typeset img.screenshot.screenshot-ui {
+  max-width: min(280px, 100%);
+  margin-left: 0;
+}
+
 .md-typeset video.screenshot {
   pointer-events: none;
 }

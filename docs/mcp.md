@@ -36,41 +36,32 @@ Changes made through the assistant show in the activity log with an **MCP** labe
 
 1. Confirm your organization has an active AirShop subscription.
 2. An org admin opens **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }** and chooses **REQUEST ACCESS**.
-3. After AirShop approves your organization, an org admin chooses who can read and who can write. See [Choose who can read and who can write](#choose-who-can-read-and-who-can-write).
+3. After AirShop approves your organization, an org admin sets access. See [Set MCP access](#set-mcp-access).
 4. That person opens **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }**.
 
 If your organization is approved but you see no connector URL, your user does not have MCP access yet. Ask an org admin to grant **Read** or **Read and write**.
 
-## Choose who can read and who can write
+## Set MCP access
 
-Nobody can use the assistant until an org admin grants access. Two places control it.
+An org admin does this after AirShop approves the organization.
 
-### One person
+### Set permissions per user
 
-![MCP access on a user: None, Read, or Read and write](assets/mcp-user-access.png){ .screenshot }
+![MCP access menu: None, Read, or Read and write](assets/mcp-user-access.png){ .screenshot .screenshot-ui }
 
 1. Open **[Settings → Users](https://airshop.work/settings/users){ target="_blank" rel="noopener noreferrer" }**.
 2. Edit the person.
-3. Set **MCP access**:
-    - **None:** no assistant access from this setting.
-    - **Read:** look up data.
-    - **Read and write:** look up data and make changes their role already allows.
+3. Set **MCP access** to **None**, **Read**, or **Read and write**.
 
-This adds access for that person. It does not remove access their role already includes. To take role access away, change the role.
+**Read** looks up data. **Read and write** can also make changes. They only get what their role already allows.
 
-### Everyone in a role
+### Set permissions per role
 
 1. Open **[Settings → Users](https://airshop.work/settings/users){ target="_blank" rel="noopener noreferrer" }** and choose **Manage Roles**.
 2. Edit the role.
-3. Under **AI assistant (MCP)**, turn on:
-    - **Can use AirShop MCP (read)?**
-    - **Can use AirShop MCP (write)?**
+3. Under **AI assistant (MCP)**, turn on read, write, or both.
 
-Everyone with that role gets the access you turn on. They still only see and change data that role already allows.
-
-### What they can touch
-
-Assistant access does not bypass the rest of their AirShop permissions. A person who cannot edit inventory in AirShop cannot change inventory through Claude or ChatGPT. The same applies to inquiries, quotes, customers, and sources.
+Everyone in that role gets it. The role still limits which data they can see and change.
 
 ## Connector URL
 
