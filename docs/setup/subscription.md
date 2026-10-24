@@ -47,6 +47,8 @@ Solo does not include **Shopboard Sync** (live inquiry and quote updates on a sh
 
 Pro pricing is custom. Use **Contact Us** on the Subscription page or [book a demo](https://cal.com/airshop/demo).
 
+**AI assistant (MCP)** is in beta. Subscribed customers request access at **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }**. That page stays open without beta access. See [AI assistant (MCP)](../mcp.md).
+
 Each team member must have their own user account. Sharing a single login across multiple people is not permitted. We monitor for misuse.
 
 ---

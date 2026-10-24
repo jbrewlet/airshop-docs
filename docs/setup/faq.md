@@ -18,6 +18,10 @@ AirShop is a platform for managing quotes, orders, and inventory for manufacturi
 
 In the AirShop app, use the **Help** widget in the bottom-right corner to contact AirShop.
 
+### How do I connect Claude or ChatGPT?
+
+**AI assistant (MCP)** is in beta. Open **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }** and choose **Request access**. You do not need beta access to open that page. After AirShop approves your organization, follow [AI assistant (MCP)](../mcp.md).
+
 ## Subscription
 
 ### How do I subscribe or change my plan?

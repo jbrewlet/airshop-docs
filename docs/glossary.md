@@ -34,6 +34,14 @@ See [Shopboard](setup/shopboard.md), [Subscription](setup/subscription.md).
 
 ---
 
+## AI assistant (MCP)
+
+Connection that lets Claude or ChatGPT read, and when allowed write, your AirShop data. Beta. Subscribed customers request access at Settings → Integrations → AI assistant (MCP). That page stays open without beta access.
+
+See [AI assistant (MCP)](mcp.md).
+
+---
+
 ## AirShop
 
 The app that helps you manage quotes, orders, and inventory for your shop or fabrication business.

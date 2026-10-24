@@ -21,4 +21,5 @@ Getting started, configuration, and integration.
 - [Help Scout Integration](helpscout.md)
 - [Customer upload links](customer-uploads.md)
 - [Shopboard setup](shopboard.md)
+- [AI assistant (MCP)](../mcp.md)
 - [FAQ](faq.md)

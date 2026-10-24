@@ -1,7 +1,7 @@
 ---
 title: Integrations
 description: Connect AirShop to Zapier, Make, Help Scout, and other tools. Webhooks, sidebar apps, and automation.
-keywords: [integrations, webhooks, zapier, make, helpscout, Stripe, Stripe Connect]
+keywords: [integrations, webhooks, zapier, make, helpscout, Stripe, Stripe Connect, mcp, claude, chatgpt]
 ---
 
 # Integrations
@@ -14,6 +14,7 @@ Connect AirShop to your favorite tools for automation, support, and accounting.
 - **[Outbound Webhooks](outbound-webhooks.md)** — Send quote acceptance events to Zapier, Make, QuickBooks, Xero, FreshBooks, or any app that accepts webhooks.
 - **[Help Scout](../setup/helpscout.md)** — View inquiries, create quotes, and manage customer conversations from the Help Scout sidebar. Includes [customer upload links](../setup/customer-uploads.md) you copy into replies.
 - **[Shopboard](../setup/shopboard.md)**: Shop floor displays paired to your AirShop account. **Shopboard Sync** (live AirShop events) requires Starter, Team, or Pro. Manage devices at **[Shopboard](https://airshop.work/settings/integrations/shopboard){ target="_blank" rel="noopener noreferrer" }**.
+- **[AI assistant (MCP)](../mcp.md)**: Connect Claude or ChatGPT to AirShop. Beta. Subscribed customers can request access. Setup at **[AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }**.
 
 ## Partner Programs
 
