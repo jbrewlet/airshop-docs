@@ -9,9 +9,7 @@ keywords: [mcp, claude, chatgpt, ai assistant, connector, model context protocol
 Ask Claude or ChatGPT about your inquiries, quotes, customers, inventory, shop issues, and production work. The assistant uses your AirShop login, so it only sees and changes what that person is allowed to do in AirShop.
 
 !!! note "Beta"
-    AI assistant (MCP) is in beta. Subscribed customers request access on **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }**. That page stays open without beta access. You do not need MCP permission to send the request. AirShop enables your organization when you are approved.
-
-    You need an active AirShop subscription before you request access. See [Subscription](setup/subscription.md).
+    AI assistant (MCP) is in beta. An org admin with an active subscription requests access on **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }**. AirShop enables your organization when you are approved. See [Subscription](setup/subscription.md).
 
 ## What you can do
 
@@ -22,7 +20,7 @@ Ask Claude or ChatGPT about your inquiries, quotes, customers, inventory, shop i
 - List open shop issues and production work assigned to you
 - Check how much MCP usage you have left
 
-**Write** needs both of these: AirShop has enabled writes for your organization, and that person has **Read and write**. Until organization writes are on, **Read and write** still only allows lookups.
+**Write** needs **Read and write** on that person, or on their role. They can only change data their role already allows.
 
 With write access, the assistant can:
 
@@ -37,7 +35,7 @@ Changes made through the assistant show in the activity log with an **MCP** labe
 ## Request access
 
 1. Confirm your organization has an active AirShop subscription.
-2. Open **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }** and choose **Request access**. You can do this before your organization is approved, and without MCP permission on your user.
+2. An org admin opens **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }** and chooses **REQUEST ACCESS**.
 3. After AirShop approves your organization, an org admin chooses who can read and who can write. See [Choose who can read and who can write](#choose-who-can-read-and-who-can-write).
 4. That person opens **[Settings → Integrations → AI assistant (MCP)](https://airshop.work/settings/integrations/mcp){ target="_blank" rel="noopener noreferrer" }**.
 
@@ -49,12 +47,14 @@ Nobody can use the assistant until an org admin grants access. Two places contro
 
 ### One person
 
+![MCP access on a user: None, Read, or Read and write](assets/mcp-user-access.png){ .screenshot }
+
 1. Open **[Settings → Users](https://airshop.work/settings/users){ target="_blank" rel="noopener noreferrer" }**.
 2. Edit the person.
 3. Set **MCP access**:
     - **None:** no assistant access from this setting.
     - **Read:** look up data.
-    - **Read and write:** look up data and make changes, after AirShop has enabled writes for the organization.
+    - **Read and write:** look up data and make changes their role already allows.
 
 This adds access for that person. It does not remove access their role already includes. To take role access away, change the role.
 
@@ -66,7 +66,7 @@ This adds access for that person. It does not remove access their role already i
     - **Can use AirShop MCP (read)?**
     - **Can use AirShop MCP (write)?**
 
-Everyone with that role gets the access you turn on. Write on a role still waits for AirShop to enable writes for the organization.
+Everyone with that role gets the access you turn on. They still only see and change data that role already allows.
 
 ### What they can touch
 
@@ -132,7 +132,7 @@ Check **Usage** on the AI assistant page, or ask the assistant how much MCP usag
 
 **Missing tools or data**
 
-Your AirShop role may not include that data. Ask an org admin to check your permissions, and to check **MCP access** on your user or **AI assistant (MCP)** on your role. Write tools stay hidden until AirShop has enabled writes for the organization and you have **Read and write**.
+Your AirShop role may not include that data. Ask an org admin to check your role, and to set **MCP access** on your user or **AI assistant (MCP)** on your role. Changes need **Read and write**.
 
 **Wrong account**
 
