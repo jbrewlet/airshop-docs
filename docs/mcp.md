@@ -24,6 +24,7 @@ Ask Claude or ChatGPT about your inquiries, quotes, customers, inventory, shop i
 
 With write access, the assistant can:
 
+- Create a shop issue and attach photos
 - Add notes and update status on issues and inquiries
 - Draft a follow-up email
 - Set inventory counts, low quantity, reorder quantity, and item status
@@ -101,6 +102,7 @@ Read:
 
 Write (only when your organization and your user have write access):
 
+- "Create a shop issue for the cracked fixture and attach a photo"
 - "Add a note to the cracked weld issue"
 - "Mark that inquiry as accepted"
 - "Draft a follow-up email to this customer"
